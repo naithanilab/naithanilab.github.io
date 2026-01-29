@@ -70,9 +70,9 @@ knitr::opts_chunk$set(message = F)
 
 24.  Cleary M. B., **Naithani K.**, Ewers B. E., and Pendall E. (2015) Upscaling CO<sub>2</sub> fluxes using leaf, soil and chamber measurements across successional growth stages in a sagebrush steppe ecosystem. Journal of Arid Environments. 12: 43–51. [doi: 10.1016/j.jaridenv.2015.05.013](https://doi.org/10.1016/j.jaridenv.2015.05.013)
        
-25. **Naithani K.**, Ewers B. E., Adelman J. D., and Siemens D. H. (2014) Abiotic and biotic controls on spatial distribution and performance of a Boechera stricta population. Frontiers in Plant Science, 5: 348. [doi: 10.3389/fpls.2014.00348](https://doi.org/10.3389/fpls.2014.00348)
+25. **Naithani K.J.**, Ewers B. E., Adelman J. D., and Siemens D. H. (2014) Abiotic and biotic controls on spatial distribution and performance of a Boechera stricta population. Frontiers in Plant Science, 5: 348. [doi: 10.3389/fpls.2014.00348](https://doi.org/10.3389/fpls.2014.00348)
        
-26. **Naithani K.**, Baldwin D., Gaines K., Lin H., and Eissenstat D. M. (2013) Spatial distribution of tree species governs the spatio–temporal interaction of leaf area index and soil moisture across a forested landscape. PLoS ONE, 8(3): e58704. [doi: 10.1371/journal.pone.0058704](https://doi.org/10.1371/journal.pone.0058704)
+26. **Naithani K.J.**, Baldwin D., Gaines K., Lin H., and Eissenstat D. M. (2013) Spatial distribution of tree species governs the spatio–temporal interaction of leaf area index and soil moisture across a forested landscape. PLoS ONE, 8(3): e58704. [doi: 10.1371/journal.pone.0058704](https://doi.org/10.1371/journal.pone.0058704)
        
 27. Biddinger D. J., Joshi N. K., Rajotte E. G., Halbrendt N. O., Pulig C., **Naithani K.J.**, and Vaughn M. (2013). An immunomarking method to determine the foraging patterns of Osmia cornifrons and resulting fruit set in a cherry orchard. Apidologie, 44 (6): 738–749. [doi: 10.1007/s13592-013-0221-x](https://link.springer.com/article/10.1007/s13592-013-0221-x)
 
@@ -113,6 +113,7 @@ knitr::opts_chunk$set(message = F)
 39. **Naithani K. (2009)** Spatial and temporal controls on population and flux processes in steppe ecosystems. Doctoral dissertation, University of Wyoming, Laramie WY.
 
 40. **Naithani K.** (2001) Alleviation of SO<sub>2</sub> toxicity in maize and sunflower plants using lime water. Master Thesis, G. B. P. University of Agriculture and Technology, Pantnagar, India. 
+
 
 ---
 
