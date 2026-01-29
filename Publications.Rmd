@@ -4,11 +4,11 @@ date: '`r format(Sys.time(), "%d %B, %Y")`'
 ---
 
 ```{r setup, include = F}
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(knitr)
-knitr::opts_chunk$set(echo = F)
-knitr::opts_chunk$set(warning = F)
-knitr::opts_chunk$set(message = F)
+  if (!require("pacman")) install.packages("pacman")
+  pacman::p_load(knitr)
+  knitr::opts_chunk$set(echo = F)
+  knitr::opts_chunk$set(warning = F)
+  knitr::opts_chunk$set(message = F)
 ```
 
 
