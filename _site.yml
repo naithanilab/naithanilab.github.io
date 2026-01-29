@@ -1,6 +1,6 @@
 name: 
 author: Kusum Naithani
-output_dir: docs
+output_dir: ..
 output:
   html_document:
     # css: assets/style.css
