@@ -28,13 +28,15 @@ ___
 ___
 
 
-[Landscape Ecology](https://naithanilab.github.io/Landscape-Ecology/)
+[Landscape Ecology Book](https://naithanilab.github.io/Landscape-Ecology/)
 
 
-```{r, fig.cap="", out.width = '80%', fig.align='center'}
+
+```{r, fig.cap="", out.width = '70%', fig.align='center'}
     knitr::include_graphics("images/courses.png")
 
 ```
+
 
 ___
 
