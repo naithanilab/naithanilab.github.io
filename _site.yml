@@ -1,0 +1,42 @@
+name: 
+author: Kusum Naithani
+output_dir: docs
+output:
+  html_document:
+    # css: assets/style.css
+    self_contained: yes
+    keep_md: no
+    theme: flatly
+    toc: yes
+    toc_float: no
+    
+navbar:
+  title: Naithani Lab
+  left:
+  - text: Home
+    href: index.html
+    icon: fa-home
+  - text: Projects
+    href: Projects.html
+    icon: fa-flask
+  - text: Publications
+    href: Publications.html
+    icon: fa-book
+  - text: Teaching
+    href: Teaching.html
+    icon: fa-chalkboard
+  - text: Open Positions
+    href: Positions.html
+    icon: fa-user
+    
+  right:
+  - { 
+      icon: "fa-linkedin", 
+      href: "https://www.linkedin.com/in/kusum-naithani-834ba013a/", 
+      align: right
+    }
+
+
+# Resources:
+## icons 
+# https://fontawesome.com/search?q=ID&o=r&m=free

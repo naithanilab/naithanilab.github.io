@@ -1,0 +1,183 @@
+---
+title: "Naithani Lab"
+output: html_document
+---
+
+```{r setup, include = F}
+knitr::opts_chunk$set(echo = F)
+```
+
+---
+
+**Research in Naithani Lab focuses on understanding the impacts of climate change and land use on ecosystem structure, functions, and services, with the goal of informing community-based solutions for regenerative natural resource management.**
+
+---
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/kusum.png")
+```
+
+
+---
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/people.png")
+
+```
+
+
+---
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/alumni.png")
+
+```
+
+
+---
+
+
+**Postdoctoral Scientists**
+
+* [Dr. Mitchell Pruitt](https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/), Visiting Assistant Professor (2024 - 2025) 
+
+* [Dr. Lilia Stemet](https://www.linkedin.com/in/liliastemet/), BIOLEAPS Project Coordinator (2025)
+
+* [Dr. Jessica Moon](https://sites.google.com/view/jessicabmoon/people?authuser=0), Postdoctoral Associate (2015-2018)
+
+* [Dr. Bhaskar Mitra](https://www.linkedin.com/in/bhaskar-mitra-0652b227/), Postdoctoral Associate (2014-2015)
+
+---
+
+**Graduate Students**
+
+* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), Ph.D. (Biology, 2023)  
+
+* [Yang Kai Tang](https://www.linkedin.com/in/yangkaitang/), M.S. (Biological Analytics, 2023)
+
+* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), M.S. (Biological Analytics, 2022) | Graduate Certificate (Sustainability, 2022)
+
+* [Megan Reavis](https://www.linkedin.com/in/megan-reavis/), Ph.D. (Biology, 2021) | Graduate Certificate (Sustainability, 2020)
+
+* [Renee Sniegocki](https://www.linkedin.com/in/renee-sniegocki-55a557227/), M.S. (Biology, 2020)
+
+
+---
+
+**Naithani Lab Affiliate**
+
+* [Harrison Smith](https://www.linkedin.com/in/harrison-w-smith/) 
+* [Kapil Khadka](https://www.linkedin.com/in/kapil-khadka-5898671b9/) 
+* [Robert Dyer](https://www.linkedin.com/in/robert-dyer-a64771231/)
+
+---
+
+
+**Undergraduate Students**
+
+**Honors Thesis**
+
+* C. Connor Perkins, Honors Student (2018 - 2019), Graduated cum laude
+
+* K. Elizabeth Johnson, Honors Student (2017 - 2019), Graduated cum laude
+
+* [Jackson Massanelli](https://www.pearlandpediatrics.com/jackson-massanelli-md-faap), Honors Student (2015 - 2017), Graduated summa cum laude 
+
+* [Carly Konzelman](https://www.linkedin.com/in/carly-konzelman-863a7a1a1/), Honors Student (2015 - 2016), Graduated magna cum laude
+
+
+---
+
+
+**NSF REU/IRES**
+
+* [Andrew Ruegsegger](https://www.linkedin.com/in/andrew-ruegsegger-0431202ab/), Undergraduate Student (2024 - 2025) | NSF-REU Participant (summer 2024)
+
+* [Kenicia Godinet](https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/), NSF-REU Participant (summer 2023)
+
+* [Emma Kellogg](https://www.linkedin.com/in/emma-kellogg01/), NSF-REU Participant (summer 2023)
+
+* [Brian Jose Martinez-Soler](https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/), NSF-REU Participant (summer 2022)
+
+* [Marvin Mendoza](https://isletimmunoengineering.miami.edu/people/graduate-students/index.html), NSF-REU Participant (summer 2021)
+
+* [Abby Rutrough](https://www.linkedin.com/in/abigail-rutrough-694655139/), NSF-IRES Participant (summer 2018)
+
+* [Madeleine M. McDonnell](https://www.linkedin.com/in/mmeadowsmcdonnell/), NSF-REU Participant (summer 2016)
+
+* [Daniel Bereznyakov](https://www.linkedin.com/in/dbereznyakov/), NSF-REU Participant (summer 2015)
+
+---
+
+**Senior Thesis**
+
+* Lauren Mayden, Senior Thesis (2023)
+
+* Luke Kirkpatrick Senior Thesis (2023)
+
+* Chyann Rhodes Senior Thesis (2023)
+
+* Madison Moss Senior Thesis (2023)
+
+* Kailey Hutcherson, Senior Thesis (2021)
+
+* Megan Phillips, Senior Thesis (2021)
+
+* [Ashley Kiersey](https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/), Senior Thesis (2021)
+
+* Leiah Brown, Senior Thesis (2021)
+
+* Heber Rosa, Senior Thesis (2020)
+
+* [Ashley Bailey](https://www.linkedin.com/in/ashley-bailey-27a226198/), Senior Thesis (2019) 
+
+* Michael McGibbony, Senior Thesis (2019)
+
+* Julie Stoynaoff, Senior Thesis (2019)
+
+* John Strange, Senior Thesis (2019)
+
+* Jalyn Lewis, Senior Thesis (2018)
+
+* Jade Reagan, Senior Thesis (2018)
+
+* Megan Rowe, Senior Thesis (2018)
+
+* Caroline Forster, Senior Thesis (2017)
+
+* Tyler Alexander, Senior Thesis (2017)
+
+* Paige Kirklin, Senior Thesis (2017)
+
+* Aubry Champlin, Senior Thesis (2017)
+
+* Taylor Ping, Senior Thesis (2016)
+
+* Brandon Main, Senior Thesis (2016)
+
+* Stefany Sierra, Senior Thesis (2016)
+
+---
+
+**Research Hours**
+
+* [Jeffery Bradford](https://www.linkedin.com/in/jeffrey-bradford-46a373308/), Honors Research Hours (2023 - 2024)
+
+* [Bonnie Champion](https://www.linkedin.com/in/bonnie-champion-b0a670147/), Research Hours (2020 - 2021), Senior Thesis
+
+* [Cody Schwieso](https://www.linkedin.com/in/cody-schwieso-146b18183/), Research Hours (2019)
+
+* [Caroline Forster](https://www.linkedin.com/in/caroline-forster-917878160/), Research Hours (2017 - 2018)
+
+* [Clint Bush](https://www.linkedin.com/in/clint-bush-00ba86162/), Research Assistant (fall 2016)
+
+
+---
+
+
+>These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
+
+
+---

@@ -1,0 +1,182 @@
+---
+title: "Opportunities"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+---
+
+
+```{r setup, include = F}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(knitr)
+
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(message = F)
+
+```
+
+<style>
+body {text-align: left}
+</style>
+  
+  
+### Open Positions
+
+---
+
+
+> **There are no open positions in the the lab till Fall 2028.** 
+
+
+---
+
+
+Welcome, and thank you for your interest in the Naithani Lab! I am always looking for creative and collaborative students and postdoctoral scientists who share overlapping research interests with me, though you do not need to work on the same systems or questions. If you are interested in joining the Naithani Lab, please reach out via email (<kusum@uark.edu>) or stop by my office (737 Science and Engineering Building). I look forward to hearing from you and discussing your research interests and goals!
+
+
+---
+
+
+### How to Apply
+
+If you're interested in joining the lab, please send me an email (<kusum@uark.edu>) with the following materials:
+
+
+* A cover letter describing your interest in the lab, your background, and what you hope to gain from this experience. Postdocs should also outline how this position aligns with their long-term career goals.
+
+* A resume (2 page max) that includes contact information, prior job experience, publications, and three professional references.
+
+* Graduate application fee waivers are **not** provided. Please do not apply without confirmation. 
+
+
+**For Graduate Positions:** 
+
+Competitive [Doctoral Fellowships](https://graduate-students.uark.edu/cost-and-funding/) are available at U of A for students with GRE scores above 305 and a writing score above 4.
+
+**Additional requirement for international students:** 
+
+IELTS: 7 or more in all categories
+
+OR
+
+TOEFL: 26 or more in all categories
+
+
+**Graduate Certifications and Fellowships**
+
+Many of our graduate students enhance their education with graduate-level certificates in areas such as [Sustainability](https://catalog.uark.edu/graduatecatalog/programsofstudy/sustainabilitysust/), [Entrepreneurship](https://entrepreneurship.uark.edu/academics/graduate.php), [Geospatial Technologies](https://catalog.uark.edu/graduatecatalog/programsofstudy/geosciencesdepartmentofgeos/), and [Preparing for the Professoriate](https://catalog.uark.edu/graduatecatalog/certificates/preparingforprofessoriate/). I am also open to inquiries about developing projects for graduate ([NSF GRF](https://www.nsfgrfp.org/)) and postdoctoral ([NSF](https://www.nsf.gov/funding/postdocs#postdoctoral-research-fellowships-599) and [USDA](https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development)) fellowships.  
+
+
+---
+
+
+**Undergraduate Research and REU Opportunities**
+
+Undergraduates interested in research can join the Naithani Lab through volunteer work, paid technician positions, or for course credit (e.g., Senior or Honors Thesis). Honors students are encouraged to start early, typically completing their thesis over 1.5 to 2 years, and are advised to apply for [Honors College Grants](https://honors.uark.edu/find-funding/#grant-opportunities). 
+
+For REU positions, please refer to the [EcoREU website](https://biology.uark.edu/academics/undergraduate/eco-reu/) for NSF funded summer projects.
+
+
+---
+
+
+### Lab Culture 
+
+Our lab culture is centered on open communication, inclusivity, and a balance of flexibility and high expectations. Mistakes and setbacks are a natural part of the scientific process, and we embrace them as opportunities to grow. My goal is for every member in my lab to develop the confidence, skills, and independence needed to succeed in their chosen career path. I advise individuals from diverse academic disciplines and career trajectories, whether you’re aiming for academia, government, industry or non-profit.
+
+
+**Working Hours and Expectations**
+
+Lab members are encouraged to create a working schedule that supports both productivity and well-being. Graduate students should aim to work around 40 hours per week, though additional time may be required during certain periods. If overtime or weekend work is necessary, you are welcome to adjust your schedule to maintain balance. 
+
+
+**What I Expect from You**
+
+
+* Clear progress on program milestones (coursework, qualifying/candidacy exams, thesis/dissertation defense) and research goals, including analysis and writing for publications.
+
+* Effort to secure funding (e.g., fellowships, grants) to support your research and build grant-writing skills.
+
+* Communication about your career aspirations so we can design a plan to help you achieve them.
+
+* Professionalism and respect for your lab mates’ time, space, and resources.
+
+
+**What You Can Expect from Me**
+
+
+* Flexibility and support in your research endeavors, while challenging you to push your boundaries.
+
+* Accountability to help you stay on track with your research and career goals.
+
+* Open lines of communication for feedback, questions, or guidance.
+
+* Constructive feedback on manuscripts, presentations, and experimental designs.
+
+* A safe, inclusive, and respectful work environment.
+
+
+---
+
+
+### Mentoring Approach
+I believe in a stepwise mentoring approach that fosters independence over time. When you join the lab, we will work together to develop a project that aligns with your interests and experience. Initially, you’ll gain valuable knowledge working on existing projects, which will help you build intuition for various systems and ecological concepts. As you develop your own project, I will guide you through the process of taking leadership and ownership of your research.
+
+Postdocs in the lab are encouraged to create a tailored mentoring plan, identifying both short- and long-term goals. I strongly support your participation in grant writing, teaching, mentoring, and outreach activities, both inside and outside the lab.
+
+
+**Interdisciplinary Education**
+
+I mentor students through four interdisciplinary degree programs ([Biology](https://biology.uark.edu/about-the-department/), [Biological Analytics](https://catalog.uark.edu/graduatecatalog/programsofstudy/statisticsandanalyticsstan/#biologicalanalyticstext), [Cell and Molecular Biology](https://cell.uark.edu/), and [Environmental Dynamics](https://environmental-dynamics.uark.edu/)). As a member of my lab, you will have the flexibility to explore research questions that align with your interests while gaining valuable experience in scientific inquiry and collaboration. I work closely with each student to develop a research program tailored to their experience, expectations, and career goals.
+
+Successful applicants to our lab should demonstrate proficiency in field-based research or the computational tools necessary to handle large datasets. Experience or willingness to learn tools like R, Python, WinBUGS, JAGS, or ArcGIS is essential. I encourage you to visit our publications and research projects pages to better understand the scope of our work before reaching out.
+
+
+**Commitment to Inclusivity and Safety**
+
+Our lab maintains a zero-tolerance policy for any form of discrimination or harassment. I’m committed to providing a welcoming and supportive environment where all members feel respected and valued. As a Mandatory Reporter, I am required to report any incidents of sexual harassment, assault, stalking, or relationship violence to the University’s Title IX office.
+
+
+---
+
+
+### Forms and Resources
+
+[University of Arkansas GSIE](https://graduate-students.uark.edu/)
+
+Campus Map with [Lactation Rooms](https://campusmaps.uark.edu/?pnl_disp=N&lactation_rooms=Y&id=2110#!ct/94027,94028,94029,94030) and [Accessible Points](https://campusmaps.uark.edu/?pnl_disp=N&accessible_pt=Y&id=2110#!ct/94027,94028,94029,94030) 
+
+[Anthony Travel](https://travel.uark.edu/travel-arrangements/anthony-travel-agency.php)
+
+[International Travel & Export Control](https://travel.uark.edu/travel-policy/international-travel.php)
+
+[Travel Survival Guide](https://uark.sharepoint.com/sites/wdt/SitePages/Travel-Survival-Guide.aspx)
+
+
+---
+
+
+### Additonal Resources
+
+Choosing an advisor, a lab, and a university is an important career decision. Below are some resources that may be useful for you to make choices about your scientific career and professional development. All the Best!
+
+[10 Simple Rules for graduate students](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030229)
+
+[How To Choose a Good Scientific Problem](https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00641-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509006418%3Fshowall%3Dtrue)
+
+[Survey on Doctoral Education and Career Preparation](http://www.phd-survey.org/advice/advice.htm)
+
+[63 Best Industry Positions for PhDs](https://cheekyscientist.com/ebooks-landing/top-industry-positions-for-phds-li/?li_fat_id=9afecf32-0811-4d36-b69e-35d3c7decbcb)
+
+[US Government Jobs for Graduate Students](https://jabberwocky.weecology.org/2021/06/14/jobs-in-the-us-government-for-graduate-students/)
+
+[Beyond the professoriate](https://gradcareersuccess.com/)
+
+
+---
+
+
+>These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
+
+
+---
+

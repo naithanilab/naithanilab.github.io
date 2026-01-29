@@ -1,0 +1,63 @@
+---
+title: "Teaching"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+---
+
+
+```{r setup, include = F}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(knitr)
+
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(message = F)
+
+```
+
+<style>
+body {text-align: left}
+</style>
+
+
+#### **Courses**
+
+___
+
+> Landscape Ecology and General Ecology are offered every fall semester. 
+
+___
+
+```{r, fig.cap="", out.width = '80%', fig.align='center'}
+    knitr::include_graphics("images/courses.png")
+
+```
+
+___
+
+> Following graduate courses are offered as needed. 
+
+___
+
+**Publishing Science**
+
+**Speaking Science**
+
+**Careers in Biology**
+
+___
+
+
+#### **Course YouTube Channel**
+
+<div align="center">
+<iframe width="600" height="315" src="https://www.youtube.com/embed/6t21uFaOjMc?si=43WEOwBCV2T7oah7" title="EcologyTalks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+---
+
+
+>These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
+
+
+---
