@@ -28,6 +28,9 @@ navbar:
   - text: Open Positions
     href: Positions.html
     icon: fa-user
+  - text: Lab Resources
+    href: Resources.html
+    icon: fa-toolbox   
     
   right:
   - { 
