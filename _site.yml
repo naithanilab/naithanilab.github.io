@@ -25,7 +25,7 @@ navbar:
   - text: Teaching
     href: Teaching.html
     icon: fa-chalkboard
-  - text: Open Positions
+  - text: Join the Lab
     href: Positions.html
     icon: fa-user
   - text: Lab Resources
