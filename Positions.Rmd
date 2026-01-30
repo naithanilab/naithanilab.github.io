@@ -1,5 +1,5 @@
 ---
-title: "Opportunities"
+title: "Join the Lab"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 ---
 
@@ -17,9 +17,7 @@ knitr::opts_chunk$set(message = F)
 <style>
 body {text-align: left}
 </style>
-  
-  
-### Open Positions
+
 
 ---
 
@@ -134,6 +132,9 @@ Successful applicants to our lab should demonstrate proficiency in field-based r
 **Commitment to Inclusivity and Safety**
 
 Our lab maintains a zero-tolerance policy for any form of discrimination or harassment. I’m committed to providing a welcoming and supportive environment where all members feel respected and valued. As a Mandatory Reporter, I am required to report any incidents of sexual harassment, assault, stalking, or relationship violence to the University’s Title IX office.
+
+
+---
 
 
 ### Resources
