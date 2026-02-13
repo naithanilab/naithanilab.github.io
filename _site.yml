@@ -20,7 +20,7 @@ navbar:
     href: Projects.html
     icon: fa-flask
   - text: Publications
-    href: Publications.html
+    href: "https://scholar.google.com/citations?hl=en&user=t1udHZoAAAAJ&view_op=list_works&gmla=ALUCkoXYuTmdZbYSUoXEtNNr0_3fm34RingQPYsSrxpkBgYENg6qzjz1oJOJ-UQ8JEMMDOgX2oL_GGYw0TJ6BSi0/"
     icon: fa-book
   - text: Teaching
     href: Teaching.html

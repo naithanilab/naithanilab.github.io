@@ -12,11 +12,9 @@ knitr::opts_chunk$set(warning = F)
 knitr::opts_chunk$set(message = F)
 ```
 
-
 <style>
 body {text-align: left}
 </style>
-
 
 ---
 
@@ -37,6 +35,14 @@ US Army Corps of Engineers (2024-2025): Impact of Habitat Quality on Plant and A
 
 [BASF (2016-2020)](https://cast.uark.edu/capabilities/monarch.php): Assessment of Land Use Availability and Policy Options for Expanding Monarch Butterfly Migratory Habitat in the U.S.
 
+[NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
+
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/biodiversity.png")
+```
+
 
 ---
 
@@ -49,9 +55,16 @@ US Army Corps of Engineers (2024-2025): Impact of Habitat Quality on Plant and A
 
 [NSF-MCB (2017-2021)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1716844&HistoricalAwards=false): Systems Genetics Analysis of Photosynthetic Carbon Metabolism in Rice 
 
+[NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
+
 [NSF-ERC (2018-2019)](): Materials for Agriculture Resource Imaging Analytics at High Resolution (MARIAH)
 
 SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by developing and evaluating a Bayesian flight model for Pennsylvania apple orchards
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/agri.png")
+```
 
 
 ---
@@ -63,15 +76,57 @@ SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by develo
 ---
 
 
+[NSF-MCB (2017-2021)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1716844&HistoricalAwards=false): Systems Genetics Analysis of Photosynthetic Carbon Metabolism in Rice 
+
 [DOE-CCS (2014-2017)](https://ess.science.energy.gov/roses2014/): Linking Topographic Variation in Belowground C Processes with Hydrological Processes to Improve Earth System Models
 
 [NASA-CCS (2011-2014)](https://cce.nasa.gov/cgi-bin/cce/cce_profile.pl?project_group_id=686): Influence of Disturbance and Seasonality on Regional Carbon Flux Upscaling
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/ccs.png")
+```
 
 
 ---
 
 
 #### **4. Workforce Development**
+
+
+---
+
+
+**Research Experience for Undergraduates**
+
+
+---
+
+[NSF-REU (2024-2027)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2349682&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
+
+[NSF-REU (2021-2024)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2051120&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/ecoreu.png")
+```
+
+---
+
+
+**International Research Experiences for Students**
+
+
+---
+
+
+[NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
+
+
+
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/ires.png")
+```
 
 
 ---
@@ -85,23 +140,22 @@ SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by develo
 
 [NSF-BioLEAPS (2024-2029)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2335225&HistoricalAwards=false): IMPLEMENTATION: Shifting Culture and Mitigating Inequities in Landscape Ecology Through a Collaborative Network of Professional Societies
 
+
 >Award terminated in 2025 due to change in NSF's mission priorities. 
 
-**Research Experience for Undergraduates**
 
-[NSF-REU (2024-2027)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2349682&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
-
-[NSF-REU (2021-2024)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2051120&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
-
-**International Research Experiences for Students**
-
-[NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
+```{r, fig.cap="", out.width = '100%', fig.align='center'}
+    knitr::include_graphics("images/bioleaps.png")
+```
 
 
 ---
 
 
->These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
+---
+
+
+These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
 
 
 ---
