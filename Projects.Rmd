@@ -1,79 +1,69 @@
 ---
 title: "Projects"
+
+params:
+  image_dir: "docs/images"
 ---
 
 ```{r setup, include=FALSE}
-
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(knitr)
-
-knitr::opts_chunk$set(echo = F)
-knitr::opts_chunk$set(warning = F)
-knitr::opts_chunk$set(message = F)
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+# Source assets live in docs/images; rendered HTML also lives in docs/.
+# Centralize the source directory here, while generating browser-relative URLs.
+site_image <- function(filename) {
+  source_file <- file.path(params$image_dir, filename)
+  if (!file.exists(source_file)) stop("Missing image: ", source_file)
+  file.path("images", filename)
+}
 ```
 
-<style>
-body {text-align: left}
-</style>
+---
+
+Dates refer to the award periods. 
 
 ---
 
-
-#### **1. Biodiversity Monitoring and Conservation**
-
-
----
+## Biodiversity Monitoring and Conservation
 
 
-UA-Monticello 2026-2030: Mallard migration and conservation 
 
-US Army Corps of Engineers (2026-2027): Impact of Habitat Quality on Plant and Avian Species in Beaver Lake Area
+![](`r site_image("biodiversity.png")`){width=85%}
 
-US Army Corps of Engineers (2024-2025): Impact of Habitat Quality on Plant and Avian Species in Beaver Lake Area
-
-[NSF-EAGER (2020-2024)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2026815&HistoricalAwards=false): EAGER: Linking microbial community structure and function for improved understanding of ecosystem processes. 
-
-[BASF (2016-2020)](https://cast.uark.edu/capabilities/monarch.php): Assessment of Land Use Availability and Policy Options for Expanding Monarch Butterfly Migratory Habitat in the U.S.
 
 [NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
 
+[BASF (2016-2020)](https://cast.uark.edu/capabilities/monarch.php): Assessment of Land Use Availability and Policy Options for Expanding Monarch Butterfly Migratory Habitat in the U.S.
 
 
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/biodiversity.png")
-```
+[NSF-EAGER (2020-2024)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2026815&HistoricalAwards=false): EAGER: Linking microbial community structure and function for improved understanding of ecosystem processes. 
 
 
----
-
-
-#### **2. Sustainable Agriculture**
-
+**US Army Corps of Engineers (2024–2026)** Impact of Habitat Quality on Plant and Avian Species in Beaver Lake Area
 
 ---
+
+
+## Sustainable Agriculture
+
+
+![](`r site_image("agri.png")`){width=85%}
 
 
 [NSF-MCB (2017-2021)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1716844&HistoricalAwards=false): Systems Genetics Analysis of Photosynthetic Carbon Metabolism in Rice 
 
 [NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
 
-[NSF-ERC (2018-2019)](): Materials for Agriculture Resource Imaging Analytics at High Resolution (MARIAH)
+[NSF-ERC](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1920042&HistoricalAwards=false) (2018–2019): Materials for Agriculture Resource Imaging Analytics at High Resolution (MARIAH)
 
-SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by developing and evaluating a Bayesian flight model for Pennsylvania apple orchards
-
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/agri.png")
-```
+[SHAP](https://shaponline.org/) (2010-2011): Improving codling moth, Cydia pomonella (L.) control by developing and evaluating a Bayesian flight model for Pennsylvania apple orchards
 
 
 ---
 
 
-#### **3. Carbon Cycle Science**
+## Carbon Cycle Science
 
 
----
+![](`r site_image("ccs.png")`){width=85%}
 
 
 [NSF-MCB (2017-2021)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1716844&HistoricalAwards=false): Systems Genetics Analysis of Photosynthetic Carbon Metabolism in Rice 
@@ -83,33 +73,23 @@ SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by develo
 [NASA-CCS (2011-2014)](https://cce.nasa.gov/cgi-bin/cce/cce_profile.pl?project_group_id=686): Influence of Disturbance and Seasonality on Regional Carbon Flux Upscaling
 
 
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/ccs.png")
-```
-
-
 ---
 
 
-#### **4. Workforce Development**
+## Workforce Development
 
-
----
+Our training programs offer undergraduate students, graduate students, and early-career scientists opportunities to engage in research experiences both domestically and internationally while advancing their professional development.
 
 
 **Research Experience for Undergraduates**
 
+![](`r site_image("ecoreu.png")`){width=85%}
 
----
 
 [NSF-REU (2024-2027)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2349682&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
 
 [NSF-REU (2021-2024)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2051120&HistoricalAwards=false): REU SITE: Assessment and sustainable management of ecosystem at the nexus of food, energy, and water systems.
 
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/ecoreu.png")
-```
 
 ---
 
@@ -117,16 +97,10 @@ SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by develo
 **International Research Experiences for Students**
 
 
----
+![](`r site_image("ires.png")`){width=85%}
 
 
 [NSF-IRES (2017-2020)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1658722&HistoricalAwards=false): Sustainable Development of a Tropical Agroforestry Program in the Rural Borneo Highlands 
-
-
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/ires.png")
-```
 
 
 ---
@@ -135,24 +109,14 @@ SHAP (2010-2011): Improving codling moth, Cydia pomonella (L.) control by develo
 **Professional Development for Landscape Ecologists**
 
 
----
+![](`r site_image("bioleaps.png")`){width=85%}
 
 
-[NSF-BioLEAPS (2024-2029)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2335225&HistoricalAwards=false): IMPLEMENTATION: Shifting Culture and Mitigating Inequities in Landscape Ecology Through a Collaborative Network of Professional Societies
-
-
->Award terminated in 2025 due to change in NSF's mission priorities. 
-
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/bioleaps.png")
-```
+[NSF-BioLEAPS (2024-2029)](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2335225&HistoricalAwards=false): IMPLEMENTATION: Shifting Culture and Mitigating Inequities in Landscape Ecology Through a Collaborative Network of Professional Societies. This award was terminated in 2025 due to changes in NSF's mission priorities. 
 
 
 ---
 
-
----
 
 
 These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.

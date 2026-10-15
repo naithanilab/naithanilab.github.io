@@ -3,8 +3,8 @@ author: Kusum Naithani
 output_dir: docs
 output:
   html_document:
-    # css: assets/style.css
-    self_contained: yes
+    css: assets/style.css
+    self_contained: no
     keep_md: no
     theme: flatly
     toc: yes
@@ -16,12 +16,12 @@ navbar:
   - text: Home
     href: index.html
     icon: fa-home
+  - text: People
+    href: People.html
+    icon: fa-users
   - text: Projects
     href: Projects.html
     icon: fa-flask
-  - text: Publications
-    href: "https://scholar.google.com/citations?hl=en&user=t1udHZoAAAAJ&view_op=list_works&gmla=ALUCkoXYuTmdZbYSUoXEtNNr0_3fm34RingQPYsSrxpkBgYENg6qzjz1oJOJ-UQ8JEMMDOgX2oL_GGYw0TJ6BSi0/"
-    icon: fa-book
   - text: Teaching
     href: Teaching.html
     icon: fa-chalkboard

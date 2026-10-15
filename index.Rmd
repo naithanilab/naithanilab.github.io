@@ -1,183 +1,53 @@
 ---
-title: "Naithani Lab"
-output: html_document
+title: ""
+
+output:
+  html_document:
+    toc: false
 ---
 
-```{r setup, include = F}
-knitr::opts_chunk$set(echo = F)
-```
-
----
-
-**Research in Naithani Lab focuses on understanding the impacts of climate change and land use on ecosystem structure, functions, and services, with the goal of informing community-based solutions for regenerative natural resource management.**
-
----
-
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-    knitr::include_graphics("images/kusum.png")
-```
-
-
----
-
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/people.png")
-
-```
-
-
----
-
-```{r, fig.cap="", out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/alumni.png")
-
-```
-
-
----
-
-
-**Postdoctoral Scientists**
-
-* [Dr. Mitchell Pruitt](https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/), Visiting Assistant Professor (2024 - 2025) 
-
-* [Dr. Lilia Stemet](https://www.linkedin.com/in/liliastemet/), BIOLEAPS Project Coordinator (2025)
-
-* [Dr. Jessica Moon](https://sites.google.com/view/jessicabmoon/people?authuser=0), Postdoctoral Associate (2015-2018)
-
-* [Dr. Bhaskar Mitra](https://www.linkedin.com/in/bhaskar-mitra-0652b227/), Postdoctoral Associate (2014-2015)
-
----
-
-**Graduate Students**
-
-* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), Ph.D. (Biology, 2023)  
-
-* [Yang Kai Tang](https://www.linkedin.com/in/yangkaitang/), M.S. (Biological Analytics, 2023)
-
-* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), M.S. (Biological Analytics, 2022) | Graduate Certificate (Sustainability, 2022)
-
-* [Megan Reavis](https://www.linkedin.com/in/megan-reavis/), Ph.D. (Biology, 2021) | Graduate Certificate (Sustainability, 2020)
-
-* [Renee Sniegocki](https://www.linkedin.com/in/renee-sniegocki-55a557227/), M.S. (Biology, 2020)
-
-
----
-
-**Naithani Lab Affiliate**
-
-* [Harrison Smith](https://www.linkedin.com/in/harrison-w-smith/) 
-* [Kapil Khadka](https://www.linkedin.com/in/kapil-khadka-5898671b9/) 
-* [Robert Dyer](https://www.linkedin.com/in/robert-dyer-a64771231/)
-
----
-
-
-**Undergraduate Students**
-
-**Honors Thesis**
-
-* C. Connor Perkins, Honors Student (2018 - 2019), Graduated cum laude
-
-* K. Elizabeth Johnson, Honors Student (2017 - 2019), Graduated cum laude
-
-* [Jackson Massanelli](https://www.pearlandpediatrics.com/jackson-massanelli-md-faap), Honors Student (2015 - 2017), Graduated summa cum laude 
-
-* [Carly Konzelman](https://www.linkedin.com/in/carly-konzelman-863a7a1a1/), Honors Student (2015 - 2016), Graduated magna cum laude
-
-
----
-
-
-**NSF REU/IRES**
-
-* [Andrew Ruegsegger](https://www.linkedin.com/in/andrew-ruegsegger-0431202ab/), Undergraduate Student (2024 - 2025) | NSF-REU Participant (summer 2024)
-
-* [Kenicia Godinet](https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/), NSF-REU Participant (summer 2023)
-
-* [Emma Kellogg](https://www.linkedin.com/in/emma-kellogg01/), NSF-REU Participant (summer 2023)
-
-* [Brian Jose Martinez-Soler](https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/), NSF-REU Participant (summer 2022)
-
-* [Marvin Mendoza](https://isletimmunoengineering.miami.edu/people/graduate-students/index.html), NSF-REU Participant (summer 2021)
-
-* [Abby Rutrough](https://www.linkedin.com/in/abigail-rutrough-694655139/), NSF-IRES Participant (summer 2018)
-
-* [Madeleine M. McDonnell](https://www.linkedin.com/in/mmeadowsmcdonnell/), NSF-REU Participant (summer 2016)
-
-* [Daniel Bereznyakov](https://www.linkedin.com/in/dbereznyakov/), NSF-REU Participant (summer 2015)
-
----
-
-**Senior Thesis**
-
-* Lauren Mayden, Senior Thesis (2023)
-
-* Luke Kirkpatrick Senior Thesis (2023)
-
-* Chyann Rhodes Senior Thesis (2023)
-
-* Madison Moss Senior Thesis (2023)
-
-* Kailey Hutcherson, Senior Thesis (2021)
-
-* Megan Phillips, Senior Thesis (2021)
-
-* [Ashley Kiersey](https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/), Senior Thesis (2021)
-
-* Leiah Brown, Senior Thesis (2021)
-
-* Heber Rosa, Senior Thesis (2020)
-
-* [Ashley Bailey](https://www.linkedin.com/in/ashley-bailey-27a226198/), Senior Thesis (2019) 
-
-* Michael McGibbony, Senior Thesis (2019)
-
-* Julie Stoynaoff, Senior Thesis (2019)
-
-* John Strange, Senior Thesis (2019)
-
-* Jalyn Lewis, Senior Thesis (2018)
-
-* Jade Reagan, Senior Thesis (2018)
-
-* Megan Rowe, Senior Thesis (2018)
-
-* Caroline Forster, Senior Thesis (2017)
-
-* Tyler Alexander, Senior Thesis (2017)
-
-* Paige Kirklin, Senior Thesis (2017)
-
-* Aubry Champlin, Senior Thesis (2017)
-
-* Taylor Ping, Senior Thesis (2016)
-
-* Brandon Main, Senior Thesis (2016)
-
-* Stefany Sierra, Senior Thesis (2016)
-
----
-
-**Research Hours**
-
-* [Jeffery Bradford](https://www.linkedin.com/in/jeffrey-bradford-46a373308/), Honors Research Hours (2023 - 2024)
-
-* [Bonnie Champion](https://www.linkedin.com/in/bonnie-champion-b0a670147/), Research Hours (2020 - 2021), Senior Thesis
-
-* [Cody Schwieso](https://www.linkedin.com/in/cody-schwieso-146b18183/), Research Hours (2019)
-
-* [Caroline Forster](https://www.linkedin.com/in/caroline-forster-917878160/), Research Hours (2017 - 2018)
-
-* [Clint Bush](https://www.linkedin.com/in/clint-bush-00ba86162/), Research Assistant (fall 2016)
-
-
----
-
-
->These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
-
-
----
+<div class="lab-banner">
+<img src="images/banner.png" alt="Naithani Lab banner featuring tropical forests, rubber plantations, agricultural fields, and sagebrush ecosystems">
+</div>
+
+<section class="lab-hero" aria-labelledby="lab-hero-title">
+<div class="lab-eyebrow">Naithani Lab · University of Arkansas</div>
+<h1 id="lab-hero-title">Understanding ecosystems in a changing world</h1>
+<p class="lab-intro">We study how changing land use and climate affect ecosystem structure, functions, and services. </p>
+<div class="lab-actions">
+<a href="Projects.html">Explore our research</a>
+<a href="https://scholar.google.com/citations?user=t1udHZoAAAAJ" target="_blank" rel="noopener noreferrer" class="secondary">Explore our publications ↗</a>
+<a href="Positions.html" class="secondary">Join the lab</a>
+</div>
+</section>
+
+<section class="lab-section alt" aria-labelledby="themes-title">
+<div class="lab-eyebrow">What we study</div>
+<h2 id="themes-title">Research across scales</h2>
+<p class="section-intro">We integrates ecological observations with statistical, machine learning, and process-based models to understand how biological mechanisms interact with environmental heterogeneity, disturbance, and scale.</p>
+<div class="lab-grid">
+<div class="lab-card"><h3>Coupled Human and Natural Systems</h3><p>Investigating the dynamic interactions and feedbacks between human activities and natural ecosystems</p><a href="Projects.html">Explore research →</a></div>
+<div class="lab-card"><h3>Biodiversity Conservation</h3><p>Understanding how land use and environmental disturbances influence biodiversity while developing innovative tools and approaches to assess and monitor biodiversity.</p><a href="Projects.html">Explore research →</a></div>
+<div class="lab-card"><h3>Sustainable landscapes</h3><p>Connecting ecological knowledge with agriculture, ecosystem services, and long-term landscape sustainability.</p><a href="Projects.html">Explore research →</a></div>
+</div>
+</section>
+
+<section class="lab-section" aria-labelledby="explore-title">
+<div class="lab-eyebrow">Discover the lab</div>
+<h2 id="explore-title">People, Projects, and Pedagogy</h2>
+<div class="lab-grid">
+<div class="lab-card"><h3>Projects</h3><p>Discover current and past projects, research approaches, and collaborative work.</p><a href="Projects.html">View projects →</a></div>
+<div class="lab-card"><h3>People</h3><p>Meet the researchers and students who contribute to the lab's work.</p><a href="People.html">Meet the lab →</a></div>
+<div class="lab-card"><h3>Teaching &amp; resources</h3><p>Explore courses, ecological training, and resources for learning and research.</p><a href="Teaching.html">Explore teaching →</a><a href="Resources.html" style="margin-top:12px">Browse resources →</a></div>
+</div>
+</section>
+
+<section class="lab-section alt" aria-labelledby="connect-title">
+<div class="lab-eyebrow">Connect with us</div>
+<h2 id="connect-title">Collaborate and learn with the Naithani Lab</h2>
+<p class="section-intro">We welcome inquiries from students and researchers with overlapping interests. Please review our opportunities page before contacting us about future openings.</p>
+<div class="lab-notice"><strong>Current opportunities:</strong> There are no open positions through December 2027. See the <a href="Positions.html">Join the Lab page</a> for guidance on future inquiries.</div>
+<p style="margin-top:22px"><strong>Contact:</strong> Dr. Kusum Naithani · <a href="mailto:naithanilab1@gmail.com">naithanilab1@gmail.com</a></p>
+</section>
+
+<div class="lab-footer">These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</div>

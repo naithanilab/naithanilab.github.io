@@ -1,28 +1,28 @@
 ---
 title: "Join the Lab"
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+params:
+  image_dir: "docs/images"
 ---
 
 
-```{r setup, include = F}
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(knitr)
-
-knitr::opts_chunk$set(echo = F)
-knitr::opts_chunk$set(warning = F)
-knitr::opts_chunk$set(message = F)
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+# Source assets live in docs/images; rendered HTML also lives in docs/.
+# Centralize the source directory here, while generating browser-relative URLs.
+site_image <- function(filename) {
+  source_file <- file.path(params$image_dir, filename)
+  if (!file.exists(source_file)) stop("Missing image: ", source_file)
+  file.path("images", filename)
+}
 ```
 
-<style>
-body {text-align: left}
-</style>
+
 
 
 ---
 
 
-> **There are no open positions in the the lab till Fall 2028.** 
+> **Position availability:** No open positions through December 2027. 
 
 
 ---
@@ -34,30 +34,23 @@ Welcome, and thank you for your interest in the Naithani Lab! I am always lookin
 ---
 
 
-### How to Apply
+### How to Inquire and Apply
 
 If you're interested in joining the lab, please send me an email (<kusum@uark.edu>) with the following materials:
 
 
-* A cover letter describing your interest in the lab, your background, and what you hope to gain from this experience. Postdocs should also outline how this position aligns with their long-term career goals.
+* A cover letter (1 page max) describing your interest in the lab, your background, and what you hope to gain from this experience. Postdocs should also outline how this position aligns with their long-term career goals.
 
 * A resume (2 page max) that includes contact information, prior job experience, publications, and three professional references.
 
-* Graduate application fee waivers are **not** provided. Please do not apply without confirmation. 
+* The lab does not currently offer graduate application fee waivers. **Confirm sponsorship before submitting an application.** 
+
+---
 
 
-**For Graduate Positions:** 
+### Graduate Opportunities 
 
-Competitive [Doctoral Fellowships](https://graduate-students.uark.edu/cost-and-funding/) are available at U of A for students with GRE scores above 305 and a writing score above 4.
-
-**Additional requirement for international students:** 
-
-IELTS: 7 or more in all categories
-
-OR
-
-TOEFL: 26 or more in all categories
-
+For graduate program admission, funding, standardized tests, and English-language requirements, consult the [University of Arkansas graduate student information](https://graduate-students.uark.edu/) and [graduate funding information](https://graduate-students.uark.edu/cost-and-funding/). Requirements and eligibility can vary by program and application cycle.
 
 **Graduate Certifications and Fellowships**
 
@@ -67,7 +60,7 @@ Many of our graduate students enhance their education with graduate-level certif
 ---
 
 
-**Undergraduate Research and REU Opportunities**
+### Undergraduate Research and REU Opportunities
 
 Undergraduates interested in research can join the Naithani Lab through volunteer work, paid technician positions, or for course credit (e.g., Senior or Honors Thesis). Honors students are encouraged to start early, typically completing their thesis over 1.5 to 2 years, and are advised to apply for [Honors College Grants](https://honors.uark.edu/find-funding/#grant-opportunities). 
 
@@ -154,11 +147,9 @@ Choosing an advisor, a lab, and a university is an important career decision. Be
 [Beyond the professoriate](https://gradcareersuccess.com/)
 
 
----
-
-
->These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
-
 
 ---
 
+*These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.*
+
+---

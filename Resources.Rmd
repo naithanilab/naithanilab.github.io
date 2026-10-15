@@ -1,21 +1,26 @@
 ---
 title: "Lab Resources"
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+
+params:
+  image_dir: "docs/images"
 ---
 
-```{r setup, include = F}
-  if (!require("pacman")) install.packages("pacman")
-  pacman::p_load(knitr)
-  knitr::opts_chunk$set(echo = F)
-  knitr::opts_chunk$set(warning = F)
-  knitr::opts_chunk$set(message = F)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+# Source assets live in docs/images; rendered HTML also lives in docs/.
+# Centralize the source directory here, while generating browser-relative URLs.
+site_image <- function(filename) {
+  source_file <- file.path(params$image_dir, filename)
+  if (!file.exists(source_file)) stop("Missing image: ", source_file)
+  file.path("images", filename)
+}
 ```
 
 
 ---
 
 
-#### **Forms** 
+## Forms and Campus Resources 
 
 [University of Arkansas GSIE](https://graduate-students.uark.edu/)
 
@@ -31,14 +36,14 @@ date: '`r format(Sys.time(), "%d %B, %Y")`'
 ---
 
 
-#### **Lab Reading List**
+## Lab Reading List
 
-Reading and synthesizing information is essential to succed in graduate school. Below is the recommended reading list to start developing common knowledge base as a productive lab group member.  
+Reading and synthesizing information is essential to succeed in graduate school. Below is the recommended reading list to start developing common knowledge base as a productive lab group member.  
 
 
 ---
 
-#### **Statistics and Experimental Design**
+## Statistics and Experimental Design
 
 **Books** 
 
@@ -51,7 +56,6 @@ Reading and synthesizing information is essential to succed in graduate school. 
 * Isaaks, E.H. and Srivastava R.M. (1989) An Introduction to Applied Geostatistics. [Oxford University Press, 1989.](https://www.amazon.com/Introduction-Applied-Geostatistics-Edward-Isaaks/dp/0195050134)
 
 
----
 
 
 **Papers**
@@ -64,7 +68,7 @@ Reading and synthesizing information is essential to succed in graduate school. 
 ---
 
 
-#### **Ecology**
+## Ecology
 
 * Courchamp, Franck, and Corey J. A. Bradshaw. 100 Articles Every Ecologist Should Read. [Nature Ecology & Evolution 2, no. 2 (2018): 395–401. https://doi.org/10.1038/s41559-017-0370-9.](https://d0050464-881e-4bab-900f-557585398015.filesusr.com/ugd/9b6d5d_31ab1ea20ed247e7a4ce788506304070.pdf)
 
@@ -75,10 +79,9 @@ Reading and synthesizing information is essential to succed in graduate school. 
 * Wiens, John A., Michael R. Moss, Monica G. Turner, and David Mladenoff, eds. Foundation Papers in Landscape Ecology. [Columbia University Press, 2006.](https://cup.columbia.edu/book/foundation-papers-in-landscape-ecology/9780231126809/)
 
 
+
 ---
 
-
->These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.
-
+*These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.*
 
 ---
