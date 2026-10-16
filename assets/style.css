@@ -1,4 +1,4 @@
-/* Naithani Lab: ESIIL-inspired visual refresh */
+/* Naithani Lab */
 :root{--forest:#123e30;--leaf:#27644b;--mist:#f2f7f2;--ink:#26352f;--gold:#d9b768}
 body{color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;background:#fff}
 .navbar{background:var(--forest)!important;border:0!important;box-shadow:0 2px 12px #142e251a}
