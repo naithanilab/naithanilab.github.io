@@ -22,15 +22,15 @@ site_image <- function(filename) {
 
 ![](`r site_image("People.png")`){width=85%}
 
-* [Alexis O'Callahan](https://www.linkedin.com/in/alexis-o-callahan/), Ph.D. in Environmental Dynamics (expected in spring 2027)
+* [Alexis O'Callahan](https://www.linkedin.com/in/alexis-o-callahan/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Environmental Dynamics (expected in spring 2027)
 
-* [J. Eston Dunn III](https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/), Ph.D. in Environmental Dynamics (expected in summer 2027)
+* [J. Eston Dunn III](https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Environmental Dynamics (expected in summer 2027)
 
-* [Abaranjitha Muniyasamy](https://www.linkedin.com/in/abaranjitha-muniyasamy-325a6b115/), Ph.D. in Biology (expected in fall 2027)
+* [Abaranjitha Muniyasamy](https://www.linkedin.com/in/abaranjitha-muniyasamy-325a6b115/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Biology (expected in fall 2027)
 
-* [Honey Krishna Gaur](https://www.linkedin.com/in/honey-krishna-gaur-255032306/), M.S. and Ph.D. in Biology (expected in fall 2030)
+* [Honey Krishna Gaur](https://www.linkedin.com/in/honey-krishna-gaur-255032306/){target="_blank" rel="noopener noreferrer"}, M.S. and Ph.D. in Biology (expected in fall 2030)
 
-* [Chris Burkhart](https://www.linkedin.com/in/crburkhart/), Ph.D. in Biology (expected in fall 2031)
+* [Chris Burkhart](https://www.linkedin.com/in/crburkhart/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Biology (expected in fall 2031)
 
 * [Brighton Harris](), B.S. (Honors Student) in Biology (expected in spring 2028)
 
@@ -44,29 +44,29 @@ site_image <- function(filename) {
 
 **Postdoctoral Scientists**
 
-* [Dr. Mitchell Pruitt](https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/), Visiting Assistant Professor (2024 - 2025) 
+* [Dr. Mitchell Pruitt](https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/){target="_blank" rel="noopener noreferrer"}, Visiting Assistant Professor (2024 - 2025) 
 
-* [Dr. Lilia Stemet](https://www.linkedin.com/in/liliastemet/), BIOLEAPS Project Coordinator (2025)
+* [Dr. Lilia Stemet](https://www.linkedin.com/in/liliastemet/){target="_blank" rel="noopener noreferrer"}, BIOLEAPS Project Coordinator (2025)
 
-* [Dr. Jessica Moon](https://sites.google.com/view/jessicabmoon/people?authuser=0), Postdoctoral Associate (2015-2018)
+* [Dr. Jessica Moon](https://sites.google.com/view/jessicabmoon/people?authuser=0){target="_blank" rel="noopener noreferrer"}, Postdoctoral Associate (2015-2018)
 
-* [Dr. Bhaskar Mitra](https://www.linkedin.com/in/bhaskar-mitra-0652b227/), Postdoctoral Associate (2014-2015)
+* [Dr. Bhaskar Mitra](https://www.linkedin.com/in/bhaskar-mitra-0652b227/){target="_blank" rel="noopener noreferrer"}, Postdoctoral Associate (2014-2015)
 
 ---
 
 **Graduate Students**
 
-* [J. Eston Dunn III](https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/), M.S. in Statistics and Analytics with Concentration in Computational Analytics (Dec. 2026)
+* [J. Eston Dunn III](https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/){target="_blank" rel="noopener noreferrer"}, M.S. in Statistics and Analytics with Concentration in Computational Analytics (Dec. 2026)
 
-* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), Ph.D. in Biology (Dec. 2023)  
+* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Biology (Dec. 2023)  
 
-* [Yang Kai Tang](https://www.linkedin.com/in/yangkaitang/), M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2023)
+* [Yang Kai Tang](https://www.linkedin.com/in/yangkaitang/){target="_blank" rel="noopener noreferrer"}, M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2023)
 
-* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/), M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2022) | Graduate Certificate in Sustainability (May, 2022)
+* [Ayanna St. Rose](https://www.linkedin.com/in/strose-ayanna/){target="_blank" rel="noopener noreferrer"}, M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2022) | Graduate Certificate in Sustainability (May, 2022)
 
-* [Megan Reavis](https://www.linkedin.com/in/megan-reavis/), Ph.D. in Biology (Dec. 2021) | Graduate Certificate in Sustainability (2020)
+* [Megan Reavis](https://www.linkedin.com/in/megan-reavis/){target="_blank" rel="noopener noreferrer"}, Ph.D. in Biology (Dec. 2021) | Graduate Certificate in Sustainability (2020)
 
-* [Renee Sniegocki](https://www.linkedin.com/in/renee-sniegocki-55a557227/), M.S. in Biology (May 2020)
+* [Renee Sniegocki](https://www.linkedin.com/in/renee-sniegocki-55a557227/){target="_blank" rel="noopener noreferrer"}, M.S. in Biology (May 2020)
 
 ---
 
@@ -81,9 +81,9 @@ site_image <- function(filename) {
 
 * K. Elizabeth Johnson, Honors Student (2017 - 2019), Graduated cum laude
 
-* [Jackson Massanelli](https://www.pearlandpediatrics.com/jackson-massanelli-md-faap), Honors Student (2015 - 2017), Graduated summa cum laude 
+* [Jackson Massanelli](https://www.pearlandpediatrics.com/jackson-massanelli-md-faap){target="_blank" rel="noopener noreferrer"}, Honors Student (2015 - 2017), Graduated summa cum laude 
 
-* [Carly Konzelman](https://www.linkedin.com/in/carly-konzelman-863a7a1a1/), Honors Student (2015 - 2016), Graduated magna cum laude
+* [Carly Konzelman](https://www.linkedin.com/in/carly-konzelman-863a7a1a1/){target="_blank" rel="noopener noreferrer"}, Honors Student (2015 - 2016), Graduated magna cum laude
 
 
 ---
@@ -91,23 +91,23 @@ site_image <- function(filename) {
 
 **NSF REU/IRES**
 
-* [Kristina Jolly](https://www.linkedin.com/in/kristina-jolly/), NSF-REU Participant (summer 2026) 
+* [Kristina Jolly](https://www.linkedin.com/in/kristina-jolly/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2026) 
 
-* [Yuna O'Brien](https://www.linkedin.com/in/yuna-obrien-a5007a277/?skipRedirect=true), NSF-REU Participant (summer 2026) 
+* [Yuna O'Brien](https://www.linkedin.com/in/yuna-obrien-a5007a277/?skipRedirect=true){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2026) 
 
-* [Kenicia Godinet](https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/), NSF-REU Participant (summer 2023)
+* [Kenicia Godinet](https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2023)
 
-* [Emma Kellogg](https://www.linkedin.com/in/emma-kellogg01/), NSF-REU Participant (summer 2023)
+* [Emma Kellogg](https://www.linkedin.com/in/emma-kellogg01/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2023)
 
-* [Brian Jose Martinez-Soler](https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/), NSF-REU Participant (summer 2022)
+* [Brian Jose Martinez-Soler](https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2022)
 
-* [Marvin Mendoza](https://isletimmunoengineering.miami.edu/people/graduate-students/index.html), NSF-REU Participant (summer 2021)
+* [Marvin Mendoza](https://isletimmunoengineering.miami.edu/people/graduate-students/index.html){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2021)
 
-* [Abby Rutrough](https://www.linkedin.com/in/abigail-rutrough-694655139/), NSF-IRES Participant (summer 2018)
+* [Abby Rutrough](https://www.linkedin.com/in/abigail-rutrough-694655139/){target="_blank" rel="noopener noreferrer"}, NSF-IRES Participant (summer 2018)
 
-* [Madeleine M. McDonnell](https://www.linkedin.com/in/mmeadowsmcdonnell/), NSF-REU Participant (summer 2016)
+* [Madeleine M. McDonnell](https://www.linkedin.com/in/mmeadowsmcdonnell/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2016)
 
-* [Daniel Bereznyakov](https://www.linkedin.com/in/dbereznyakov/), NSF-REU Participant (summer 2015)
+* [Daniel Bereznyakov](https://www.linkedin.com/in/dbereznyakov/){target="_blank" rel="noopener noreferrer"}, NSF-REU Participant (summer 2015)
 
 
 ---
@@ -126,13 +126,13 @@ site_image <- function(filename) {
 
 * Megan Phillips, Senior Thesis (2021)
 
-* [Ashley Kiersey](https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/), Senior Thesis (2021)
+* [Ashley Kiersey](https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/){target="_blank" rel="noopener noreferrer"}, Senior Thesis (2021)
 
 * Leiah Brown, Senior Thesis (2021)
 
 * Heber Rosa, Senior Thesis (2020)
 
-* [Ashley Bailey](https://www.linkedin.com/in/ashley-bailey-27a226198/), Senior Thesis (2019) 
+* [Ashley Bailey](https://www.linkedin.com/in/ashley-bailey-27a226198/){target="_blank" rel="noopener noreferrer"}, Senior Thesis (2019) 
 
 * Michael McGibbony, Senior Thesis (2019)
 
@@ -164,24 +164,24 @@ site_image <- function(filename) {
 
 **Research Hours**
 
-* [Jeffery Bradford](https://www.linkedin.com/in/jeffrey-bradford-46a373308/), Honors Research Hours (2023 - 2024)
+* [Jeffery Bradford](https://www.linkedin.com/in/jeffrey-bradford-46a373308/){target="_blank" rel="noopener noreferrer"}, Honors Research Hours (2023 - 2024)
 
-* [Bonnie Champion](https://www.linkedin.com/in/bonnie-champion-b0a670147/), Research Hours (2020 - 2021), Senior Thesis
+* [Bonnie Champion](https://www.linkedin.com/in/bonnie-champion-b0a670147/){target="_blank" rel="noopener noreferrer"}, Research Hours (2020 - 2021), Senior Thesis
 
-* [Cody Schwieso](https://www.linkedin.com/in/cody-schwieso-146b18183/), Research Hours (2019)
+* [Cody Schwieso](https://www.linkedin.com/in/cody-schwieso-146b18183/){target="_blank" rel="noopener noreferrer"}, Research Hours (2019)
 
-* [Caroline Forster](https://www.linkedin.com/in/caroline-forster-917878160/), Research Hours (2017 - 2018)
+* [Caroline Forster](https://www.linkedin.com/in/caroline-forster-917878160/){target="_blank" rel="noopener noreferrer"}, Research Hours (2017 - 2018)
 
-* [Clint Bush](https://www.linkedin.com/in/clint-bush-00ba86162/), Research Assistant (fall 2016)
+* [Clint Bush](https://www.linkedin.com/in/clint-bush-00ba86162/){target="_blank" rel="noopener noreferrer"}, Research Assistant (fall 2016)
 
 
 ---
 
 **Naithani Lab Affiliate**
 
-* [Harrison Smith](https://www.linkedin.com/in/harrison-w-smith/) 
-* [Kapil Khadka](https://www.linkedin.com/in/kapil-khadka-5898671b9/) 
-* [Robert Dyer](https://www.linkedin.com/in/robert-dyer-a64771231/)
+* [Harrison Smith](https://www.linkedin.com/in/harrison-w-smith/){target="_blank" rel="noopener noreferrer"} 
+* [Kapil Khadka](https://www.linkedin.com/in/kapil-khadka-5898671b9/){target="_blank" rel="noopener noreferrer"} 
+* [Robert Dyer](https://www.linkedin.com/in/robert-dyer-a64771231/){target="_blank" rel="noopener noreferrer"}
 
 
 ---
