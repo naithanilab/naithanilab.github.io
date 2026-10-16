@@ -1,16 +1,30 @@
- /* Whole document: */
-body {
-  font-family: Helvetica;
-  font-size: 14pt;
-}
-
-/* Headers */
-h1 {
-  font-size: 24pt;
-  color: maroon;
-}
-
-h2, h3 {
-  font-size: 20pt;
-  color: purple ;
-}
+/* Naithani Lab: ESIIL-inspired visual refresh */
+:root{--forest:#123e30;--leaf:#27644b;--mist:#f2f7f2;--ink:#26352f;--gold:#d9b768}
+body{color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;background:#fff}
+.navbar{background:var(--forest)!important;border:0!important;box-shadow:0 2px 12px #142e251a}
+.navbar .navbar-brand,.navbar .navbar-nav>li>a{color:white!important}
+.navbar .navbar-nav>li>a:hover{background:#275d47!important}
+.main-container{max-width:1180px!important}
+h1,h2,h3{color:var(--forest)}
+a{color:var(--leaf)}
+.lab-banner img{width:100%;display:block;object-fit:cover;border-radius:0 0 16px 16px}
+.lab-banner{margin:0 0 24px}
+.lab-hero{padding:32px 8px 44px}
+.lab-eyebrow{color:var(--leaf);font-weight:800;letter-spacing:.15em;font-size:12px;text-transform:uppercase}
+.lab-hero h1{font-size:clamp(32px,4vw,52px);font-weight:750;line-height:1.13;max-width:850px;margin:14px 0 18px}
+.lab-intro{font-size:clamp(17px,1.8vw,21px);line-height:1.65;max-width:900px;color:#43564b}
+.lab-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.lab-actions a{display:inline-flex;padding:13px 20px;border-radius:7px;text-decoration:none!important;font-weight:700;background:var(--forest);color:white!important}
+.lab-actions a.secondary{background:#fff;color:var(--forest)!important;border:2px solid var(--forest)}
+.lab-section{padding:38px 0 50px;border-top:1px solid #dce8df}
+.lab-section.alt{background:var(--mist);padding:40px 24px;border-radius:14px;border-top:0;margin-bottom:32px}
+.lab-section h2{font-size:clamp(25px,3vw,35px);font-weight:750;margin:4px 0 16px}
+.lab-section .section-intro{font-size:17px;max-width:780px;color:#53645a;line-height:1.6}
+.lab-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:26px}
+.lab-card{border:1px solid #dce7df;border-radius:12px;padding:25px;background:white;box-shadow:0 5px 20px #143f3010;display:flex;flex-direction:column;align-items:flex-start}
+.lab-card h3{font-size:21px;margin:0 0 10px;font-weight:750}
+.lab-card p{line-height:1.6;flex:1}
+.lab-card a{font-weight:750;text-decoration:none}
+.lab-notice{border-left:5px solid var(--gold);background:#fffaf0;padding:18px 22px;border-radius:6px;line-height:1.6}
+.lab-footer{font-size:13px;color:#69786f;padding:28px 0}
+@media(max-width:750px){.lab-grid{grid-template-columns:1fr}.lab-hero{padding:20px 0 34px}.lab-section.alt{padding:28px 18px}.lab-actions a{width:100%;justify-content:center}.lab-banner img{border-radius:10px}}
