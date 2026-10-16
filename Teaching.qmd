@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+---
+
+---
+
+## Courses
+
+___
+
+> Landscape Ecology and General Ecology are offered every fall semester. 
+
+___
+
+[Landscape Ecology Book](https://naithanilab.github.io/Landscape-Ecology/)
+
+___
+
+> The following graduate courses are offered as needed. 
+
+___
+
+**Publishing Science**
+
+**Speaking Science**
+
+**Careers in Biology**
+
+___
+
+
+## Course YouTube Channel
+
+<div class="video-wrap">
+<iframe
+  width="100%"
+  height="550"
+  src="https://www.youtube.com/embed/6t21uFaOjMc?si=43WEOwBCV2T7oah7"
+  title="YouTube video"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+</div>
+
+---
+
+*These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.*
+
+---

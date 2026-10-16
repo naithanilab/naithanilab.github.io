@@ -1,561 +1,667 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<html>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
 
-<head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-
-
-<title>Join the Lab</title>
-
-<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+<title>Join the Lab – Naithani Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
 }
-</script>
-
-
-
-
-
-
-<link rel="stylesheet" href="assets/style.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
 }
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9d96f532d65220ca877c0304385df42f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
+}</script>
 
 
-
-
+<link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Naithani Lab</a>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Naithani Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./People.html"> <i class="bi bi-people" role="img">
+</i> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Projects.html"> <i class="bi bi-flask" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Teaching.html"> <i class="bi bi-easel" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Positions.html" aria-current="page"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text">Join the Lab</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Resources.html"> <i class="bi bi-tools" role="img">
+</i> 
+<span class="menu-text">Lab Resources</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kusum-naithani-834ba013a/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-inquire-and-apply" id="toc-how-to-inquire-and-apply" class="nav-link active" data-scroll-target="#how-to-inquire-and-apply">How to Inquire and Apply</a></li>
+  <li><a href="#graduate-opportunities" id="toc-graduate-opportunities" class="nav-link" data-scroll-target="#graduate-opportunities">Graduate Opportunities</a></li>
+  <li><a href="#undergraduate-research-and-reu-opportunities" id="toc-undergraduate-research-and-reu-opportunities" class="nav-link" data-scroll-target="#undergraduate-research-and-reu-opportunities">Undergraduate Research and REU Opportunities</a></li>
+  <li><a href="#lab-culture" id="toc-lab-culture" class="nav-link" data-scroll-target="#lab-culture">Lab Culture</a></li>
+  <li><a href="#mentoring-approach" id="toc-mentoring-approach" class="nav-link" data-scroll-target="#mentoring-approach">Mentoring Approach</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+</nav>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
-</li>
-<li>
-  <a href="People.html">
-    <span class="fa fa-users"></span>
-     
-    People
-  </a>
-</li>
-<li>
-  <a href="Projects.html">
-    <span class="fa fa-flask"></span>
-     
-    Projects
-  </a>
-</li>
-<li>
-  <a href="Teaching.html">
-    <span class="fa fa-chalkboard"></span>
-     
-    Teaching
-  </a>
-</li>
-<li>
-  <a href="Positions.html">
-    <span class="fa fa-user"></span>
-     
-    Join the Lab
-  </a>
-</li>
-<li>
-  <a href="Resources.html">
-    <span class="fa fa-toolbox"></span>
-     
-    Lab Resources
-  </a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://www.linkedin.com/in/kusum-naithani-834ba013a/">
-    <span class="fa fa-linkedin"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">Join the Lab</h1>
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Join the Lab</h1>
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#how-to-inquire-and-apply"
-id="toc-how-to-inquire-and-apply">How to Inquire and Apply</a></li>
-<li><a href="#graduate-opportunities"
-id="toc-graduate-opportunities">Graduate Opportunities</a></li>
-<li><a href="#undergraduate-research-and-reu-opportunities"
-id="toc-undergraduate-research-and-reu-opportunities">Undergraduate
-Research and REU Opportunities</a></li>
-<li><a href="#lab-culture" id="toc-lab-culture">Lab Culture</a></li>
-<li><a href="#mentoring-approach" id="toc-mentoring-approach">Mentoring
-Approach</a></li>
-<li><a href="#resources" id="toc-resources">Resources</a></li>
-</ul>
-</div>
 
-<hr />
-<blockquote>
-<p><strong>Position availability:</strong> No open positions through
-December 2027.</p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<blockquote class="blockquote">
+<p><strong>Position availability:</strong> No open positions through December 2027.</p>
 </blockquote>
-<hr />
-<p>Welcome, and thank you for your interest in the Naithani Lab! I am
-always looking for creative and collaborative students and postdoctoral
-scientists who share overlapping research interests with me, though you
-do not need to work on the same systems or questions. If you are
-interested in joining the Naithani Lab, please reach out via email (<a
-href="mailto:kusum@uark.edu" class="email">kusum@uark.edu</a>) or stop
-by my office (737 Science and Engineering Building). I look forward to
-hearing from you and discussing your research interests and goals!</p>
-<hr />
-<div id="how-to-inquire-and-apply" class="section level3">
-<h3>How to Inquire and Apply</h3>
-<p>If you’re interested in joining the lab, please send me an email (<a
-href="mailto:kusum@uark.edu" class="email">kusum@uark.edu</a>) with the
-following materials:</p>
+<hr>
+<p>Welcome, and thank you for your interest in the Naithani Lab! I am always looking for creative and collaborative students and postdoctoral scientists who share overlapping research interests with me, though you do not need to work on the same systems or questions. If you are interested in joining the Naithani Lab, please reach out via email (<a href="mailto:kusum@uark.edu" class="email">kusum@uark.edu</a>) or stop by my office (737 Science and Engineering Building). I look forward to hearing from you and discussing your research interests and goals!</p>
+<hr>
+<section id="how-to-inquire-and-apply" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-inquire-and-apply">How to Inquire and Apply</h3>
+<p>If you’re interested in joining the lab, please send me an email (<a href="mailto:kusum@uark.edu" class="email">kusum@uark.edu</a>) with the following materials:</p>
 <ul>
-<li><p>A cover letter (1 page max) describing your interest in the lab,
-your background, and what you hope to gain from this experience.
-Postdocs should also outline how this position aligns with their
-long-term career goals.</p></li>
-<li><p>A resume (2 page max) that includes contact information, prior
-job experience, publications, and three professional
-references.</p></li>
-<li><p>The lab does not currently offer graduate application fee
-waivers. <strong>Confirm sponsorship before submitting an
-application.</strong></p></li>
+<li><p>A cover letter (1 page max) describing your interest in the lab, your background, and what you hope to gain from this experience. Postdocs should also outline how this position aligns with their long-term career goals.</p></li>
+<li><p>A resume (2 page max) that includes contact information, prior job experience, publications, and three professional references.</p></li>
+<li><p>The lab does not currently offer graduate application fee waivers. <strong>Confirm sponsorship before submitting an application.</strong></p></li>
 </ul>
-<hr />
-</div>
-<div id="graduate-opportunities" class="section level3">
-<h3>Graduate Opportunities</h3>
-<p>For graduate program admission, funding, standardized tests, and
-English-language requirements, consult the <a
-href="https://graduate-students.uark.edu/">University of Arkansas
-graduate student information</a> and <a
-href="https://graduate-students.uark.edu/cost-and-funding/">graduate
-funding information</a>. Requirements and eligibility can vary by
-program and application cycle.</p>
+<hr>
+</section>
+<section id="graduate-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="graduate-opportunities">Graduate Opportunities</h3>
+<p>For graduate program admission, funding, standardized tests, and English-language requirements, consult the <a href="https://graduate-students.uark.edu/">University of Arkansas graduate student information</a> and <a href="https://graduate-students.uark.edu/cost-and-funding/">graduate funding information</a>. Requirements and eligibility can vary by program and application cycle.</p>
 <p><strong>Graduate Certifications and Fellowships</strong></p>
-<p>Many of our graduate students enhance their education with
-graduate-level certificates in areas such as <a
-href="https://catalog.uark.edu/graduatecatalog/programsofstudy/sustainabilitysust/">Sustainability</a>,
-<a
-href="https://entrepreneurship.uark.edu/academics/graduate.php">Entrepreneurship</a>,
-<a
-href="https://catalog.uark.edu/graduatecatalog/programsofstudy/geosciencesdepartmentofgeos/">Geospatial
-Technologies</a>, and <a
-href="https://catalog.uark.edu/graduatecatalog/certificates/preparingforprofessoriate/">Preparing
-for the Professoriate</a>. I am also open to inquiries about developing
-projects for graduate (<a href="https://www.nsfgrfp.org/">NSF GRF</a>)
-and postdoctoral (<a
-href="https://www.nsf.gov/funding/postdocs#postdoctoral-research-fellowships-599">NSF</a>
-and <a
-href="https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development">USDA</a>)
-fellowships.</p>
-<hr />
-</div>
-<div id="undergraduate-research-and-reu-opportunities"
-class="section level3">
-<h3>Undergraduate Research and REU Opportunities</h3>
-<p>Undergraduates interested in research can join the Naithani Lab
-through volunteer work, paid technician positions, or for course credit
-(e.g., Senior or Honors Thesis). Honors students are encouraged to start
-early, typically completing their thesis over 1.5 to 2 years, and are
-advised to apply for <a
-href="https://honors.uark.edu/find-funding/#grant-opportunities">Honors
-College Grants</a>.</p>
-<p>For REU positions, please refer to the <a
-href="https://biology.uark.edu/academics/undergraduate/eco-reu/">EcoREU
-website</a> for NSF funded summer projects.</p>
-<hr />
-</div>
-<div id="lab-culture" class="section level3">
-<h3>Lab Culture</h3>
-<p>Our lab culture is centered on open communication, inclusivity, and a
-balance of flexibility and high expectations. Mistakes and setbacks are
-a natural part of the scientific process, and we embrace them as
-opportunities to grow. My goal is for every member in my lab to develop
-the confidence, skills, and independence needed to succeed in their
-chosen career path. I advise individuals from diverse academic
-disciplines and career trajectories, whether you’re aiming for academia,
-government, industry or non-profit.</p>
+<p>Many of our graduate students enhance their education with graduate-level certificates in areas such as <a href="https://catalog.uark.edu/graduatecatalog/programsofstudy/sustainabilitysust/">Sustainability</a>, <a href="https://entrepreneurship.uark.edu/academics/graduate.php">Entrepreneurship</a>, <a href="https://catalog.uark.edu/graduatecatalog/programsofstudy/geosciencesdepartmentofgeos/">Geospatial Technologies</a>, and <a href="https://catalog.uark.edu/graduatecatalog/certificates/preparingforprofessoriate/">Preparing for the Professoriate</a>. I am also open to inquiries about developing projects for graduate (<a href="https://www.nsfgrfp.org/">NSF GRF</a>) and postdoctoral (<a href="https://www.nsf.gov/funding/postdocs#postdoctoral-research-fellowships-599">NSF</a> and <a href="https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development">USDA</a>) fellowships.</p>
+<hr>
+</section>
+<section id="undergraduate-research-and-reu-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-research-and-reu-opportunities">Undergraduate Research and REU Opportunities</h3>
+<p>Undergraduates interested in research can join the Naithani Lab through volunteer work, paid technician positions, or for course credit (e.g., Senior or Honors Thesis). Honors students are encouraged to start early, typically completing their thesis over 1.5 to 2 years, and are advised to apply for <a href="https://honors.uark.edu/find-funding/#grant-opportunities">Honors College Grants</a>.</p>
+<p>For REU positions, please refer to the <a href="https://biology.uark.edu/academics/undergraduate/eco-reu/">EcoREU website</a> for NSF-funded summer projects.</p>
+<hr>
+</section>
+<section id="lab-culture" class="level3">
+<h3 class="anchored" data-anchor-id="lab-culture">Lab Culture</h3>
+<p>Our lab culture is centered on open communication, inclusivity, and a balance of flexibility and high expectations. Mistakes and setbacks are a natural part of the scientific process, and we embrace them as opportunities to grow. My goal is for every member in my lab to develop the confidence, skills, and independence needed to succeed in their chosen career path. I advise individuals from diverse academic disciplines and career trajectories, whether you’re aiming for academia, government, industry, or nonprofit.</p>
 <p><strong>Working Hours and Expectations</strong></p>
-<p>Lab members are encouraged to create a working schedule that supports
-both productivity and well-being. Graduate students should aim to work
-around 40 hours per week, though additional time may be required during
-certain periods. If overtime or weekend work is necessary, you are
-welcome to adjust your schedule to maintain balance.</p>
+<p>Lab members are encouraged to create a working schedule that supports both productivity and well-being. Graduate students should aim to work around 40 hours per week, though additional time may be required during certain periods. If overtime or weekend work is necessary, you are welcome to adjust your schedule to maintain balance.</p>
 <p><strong>What I Expect from You</strong></p>
 <ul>
-<li><p>Clear progress on program milestones (coursework,
-qualifying/candidacy exams, thesis/dissertation defense) and research
-goals, including analysis and writing for publications.</p></li>
-<li><p>Effort to secure funding (e.g., fellowships, grants) to support
-your research and build grant-writing skills.</p></li>
-<li><p>Communication about your career aspirations so we can design a
-plan to help you achieve them.</p></li>
-<li><p>Professionalism and respect for your lab mates’ time, space, and
-resources.</p></li>
+<li><p>Clear progress on program milestones (coursework, qualifying/candidacy exams, thesis/dissertation defense) and research goals, including analysis and writing for publications.</p></li>
+<li><p>Effort to secure funding (e.g., fellowships, grants) to support your research and build grant-writing skills.</p></li>
+<li><p>Communication about your career aspirations so we can design a plan to help you achieve them.</p></li>
+<li><p>Professionalism and respect for your lab mates’ time, space, and resources.</p></li>
 </ul>
 <p><strong>What You Can Expect from Me</strong></p>
 <ul>
-<li><p>Flexibility and support in your research endeavors, while
-challenging you to push your boundaries.</p></li>
-<li><p>Accountability to help you stay on track with your research and
-career goals.</p></li>
-<li><p>Open lines of communication for feedback, questions, or
-guidance.</p></li>
-<li><p>Constructive feedback on manuscripts, presentations, and
-experimental designs.</p></li>
+<li><p>Flexibility and support in your research endeavors, while challenging you to push your boundaries.</p></li>
+<li><p>Accountability to help you stay on track with your research and career goals.</p></li>
+<li><p>Open lines of communication for feedback, questions, or guidance.</p></li>
+<li><p>Constructive feedback on manuscripts, presentations, and experimental designs.</p></li>
 <li><p>A safe, inclusive, and respectful work environment.</p></li>
 </ul>
-<hr />
-</div>
-<div id="mentoring-approach" class="section level3">
-<h3>Mentoring Approach</h3>
-<p>I believe in a stepwise mentoring approach that fosters independence
-over time. When you join the lab, we will work together to develop a
-project that aligns with your interests and experience. Initially,
-you’ll gain valuable knowledge working on existing projects, which will
-help you build intuition for various systems and ecological concepts. As
-you develop your own project, I will guide you through the process of
-taking leadership and ownership of your research.</p>
-<p>Postdocs in the lab are encouraged to create a tailored mentoring
-plan, identifying both short- and long-term goals. I strongly support
-your participation in grant writing, teaching, mentoring, and outreach
-activities, both inside and outside the lab.</p>
+<hr>
+</section>
+<section id="mentoring-approach" class="level3">
+<h3 class="anchored" data-anchor-id="mentoring-approach">Mentoring Approach</h3>
+<p>I believe in a stepwise mentoring approach that fosters independence over time. When you join the lab, we will work together to develop a project that aligns with your interests and experience. Initially, you’ll gain valuable knowledge working on existing projects, which will help you build intuition for various systems and ecological concepts. As you develop your own project, I will guide you through the process of taking leadership and ownership of your research.</p>
+<p>Postdocs in the lab are encouraged to create a tailored mentoring plan, identifying both short- and long-term goals. I strongly support your participation in grant writing, teaching, mentoring, and outreach activities, both inside and outside the lab.</p>
 <p><strong>Interdisciplinary Education</strong></p>
-<p>I mentor students through four interdisciplinary degree programs (<a
-href="https://biology.uark.edu/about-the-department/">Biology</a>, <a
-href="https://catalog.uark.edu/graduatecatalog/programsofstudy/statisticsandanalyticsstan/#biologicalanalyticstext">Biological
-Analytics</a>, <a href="https://cell.uark.edu/">Cell and Molecular
-Biology</a>, and <a
-href="https://environmental-dynamics.uark.edu/">Environmental
-Dynamics</a>). As a member of my lab, you will have the flexibility to
-explore research questions that align with your interests while gaining
-valuable experience in scientific inquiry and collaboration. I work
-closely with each student to develop a research program tailored to
-their experience, expectations, and career goals.</p>
-<p>Successful applicants to our lab should demonstrate proficiency in
-field-based research or the computational tools necessary to handle
-large datasets. Experience or willingness to learn tools like R, Python,
-WinBUGS, JAGS, or ArcGIS is essential. I encourage you to visit our
-publications and research projects pages to better understand the scope
-of our work before reaching out.</p>
+<p>I mentor students through four interdisciplinary degree programs (<a href="https://biology.uark.edu/about-the-department/">Biology</a>, <a href="https://catalog.uark.edu/graduatecatalog/programsofstudy/statisticsandanalyticsstan/#biologicalanalyticstext">Biological Analytics</a>, <a href="https://cell.uark.edu/">Cell and Molecular Biology</a>, and <a href="https://environmental-dynamics.uark.edu/">Environmental Dynamics</a>). As a member of my lab, you will have the flexibility to explore research questions that align with your interests while gaining valuable experience in scientific inquiry and collaboration. I work closely with each student to develop a research program tailored to their experience, expectations, and career goals.</p>
+<p>Successful applicants to our lab should demonstrate proficiency in field-based research or the computational tools necessary to handle large datasets. Experience or willingness to learn tools like R, Python, WinBUGS, JAGS, or ArcGIS is essential. I encourage you to visit our publications and research projects pages to better understand the scope of our work before reaching out.</p>
 <p><strong>Commitment to Inclusivity and Safety</strong></p>
-<p>Our lab maintains a zero-tolerance policy for any form of
-discrimination or harassment. I’m committed to providing a welcoming and
-supportive environment where all members feel respected and valued. As a
-Mandatory Reporter, I am required to report any incidents of sexual
-harassment, assault, stalking, or relationship violence to the
-University’s Title IX office.</p>
-<hr />
-</div>
-<div id="resources" class="section level3">
-<h3>Resources</h3>
-<p>Choosing an advisor, a lab, and a university is an important career
-decision. Below are some resources that may be useful for you to make
-choices about your scientific career and professional development. All
-the Best!</p>
-<p><a
-href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030229">10
-Simple Rules for graduate students</a></p>
-<p><a
-href="https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00641-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509006418%3Fshowall%3Dtrue">How
-To Choose a Good Scientific Problem</a></p>
-<p><a href="http://www.phd-survey.org/advice/advice.htm">Survey on
-Doctoral Education and Career Preparation</a></p>
-<p><a
-href="https://cheekyscientist.com/ebooks-landing/top-industry-positions-for-phds-li/?li_fat_id=9afecf32-0811-4d36-b69e-35d3c7decbcb">63
-Best Industry Positions for PhDs</a></p>
-<p><a
-href="https://jabberwocky.weecology.org/2021/06/14/jobs-in-the-us-government-for-graduate-students/">US
-Government Jobs for Graduate Students</a></p>
-<p><a href="https://gradcareersuccess.com/">Beyond the
-professoriate</a></p>
-<hr />
-<p><em>These materials are not endorsed, approved, sponsored, or
-provided by or on behalf of the University of Arkansas,
-Fayetteville.</em></p>
-<hr />
-</div>
+<p>Our lab maintains a zero-tolerance policy for any form of discrimination or harassment. I’m committed to providing a welcoming and supportive environment where all members feel respected and valued. As a Mandatory Reporter, I am required to report any incidents of sexual harassment, assault, stalking, or relationship violence to the University’s Title IX office.</p>
+<hr>
+</section>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<p>Choosing an advisor, a lab, and a university is an important career decision. Below are some resources that may be useful for you to make choices about your scientific career and professional development. All the best!</p>
+<p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030229">10 Simple Rules for graduate students</a></p>
+<p><a href="https://www.cell.com/molecular-cell/fulltext/S1097-2765(09)00641-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276509006418%3Fshowall%3Dtrue">How To Choose a Good Scientific Problem</a></p>
+<p><a href="http://www.phd-survey.org/advice/advice.htm">Survey on Doctoral Education and Career Preparation</a></p>
+<p><a href="https://cheekyscientist.com/ebooks-landing/top-industry-positions-for-phds-li/?li_fat_id=9afecf32-0811-4d36-b69e-35d3c7decbcb">63 Best Industry Positions for PhDs</a></p>
+<p><a href="https://jabberwocky.weecology.org/2021/06/14/jobs-in-the-us-government-for-graduate-students/">US Government Jobs for Graduate Students</a></p>
+<p><a href="https://gradcareersuccess.com/">Beyond the professoriate</a></p>
+<hr>
+<p><em>These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</em></p>
+<hr>
 
 
+</section>
 
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
   });
-});
-</script>
-
-<!-- code folding -->
+  </script>
+</div> <!-- /content -->
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
-</body>
-</html>
+
+</body></html>

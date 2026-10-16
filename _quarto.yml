@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - images/**
+    - assets/**
+
+website:
+  title: "Naithani Lab"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+        icon: house
+      - text: People
+        href: People.qmd
+        icon: people
+      - text: Projects
+        href: Projects.qmd
+        icon: flask
+      - text: Teaching
+        href: Teaching.qmd
+        icon: easel
+      - text: Join the Lab
+        href: Positions.qmd
+        icon: person
+      - text: Lab Resources
+        href: Resources.qmd
+        icon: tools
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kusum-naithani-834ba013a/
+
+format:
+  html:
+    theme: flatly
+    css: assets/style.css
+    toc: true
+    toc-location: right
+    embed-resources: false
+
+execute:
+  echo: false
+  warning: false
+  message: false

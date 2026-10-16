@@ -1,448 +1,239 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<html>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
 
-<head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-
-
-<title>People</title>
-
-<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+<title>People – Naithani Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
 }
-</script>
-
-
-
-
-
-
-<link rel="stylesheet" href="assets/style.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
 }
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9d96f532d65220ca877c0304385df42f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
+}</script>
 
 
-
-
+<link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Naithani Lab</a>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Naithani Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./People.html" aria-current="page"> <i class="bi bi-people" role="img">
+</i> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Projects.html"> <i class="bi bi-flask" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Teaching.html"> <i class="bi bi-easel" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Positions.html"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text">Join the Lab</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Resources.html"> <i class="bi bi-tools" role="img">
+</i> 
+<span class="menu-text">Lab Resources</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kusum-naithani-834ba013a/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#current-lab-group" id="toc-current-lab-group" class="nav-link active" data-scroll-target="#current-lab-group">Current Lab Group</a></li>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
+  </ul>
+</nav>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
-</li>
-<li>
-  <a href="People.html">
-    <span class="fa fa-users"></span>
-     
-    People
-  </a>
-</li>
-<li>
-  <a href="Projects.html">
-    <span class="fa fa-flask"></span>
-     
-    Projects
-  </a>
-</li>
-<li>
-  <a href="Teaching.html">
-    <span class="fa fa-chalkboard"></span>
-     
-    Teaching
-  </a>
-</li>
-<li>
-  <a href="Positions.html">
-    <span class="fa fa-user"></span>
-     
-    Join the Lab
-  </a>
-</li>
-<li>
-  <a href="Resources.html">
-    <span class="fa fa-toolbox"></span>
-     
-    Lab Resources
-  </a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://www.linkedin.com/in/kusum-naithani-834ba013a/">
-    <span class="fa fa-linkedin"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">People</h1>
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">People</h1>
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#current-lab-group" id="toc-current-lab-group">Current Lab
-Group</a></li>
-<li><a href="#alumni" id="toc-alumni">Alumni</a></li>
-</ul>
-</div>
 
-<hr />
-<div id="current-lab-group" class="section level1">
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="current-lab-group" class="level1">
 <h1>Current Lab Group</h1>
-<p><img src="images/People.png" style="width:85.0%" /></p>
+<p><img src="images/People.png" class="img-fluid" style="width:85.0%"></p>
 <ul>
-<li><p><a href="https://www.linkedin.com/in/alexis-o-callahan/"
-target="_blank" rel="noopener noreferrer">Alexis O’Callahan</a>,
-Ph.D. in Environmental Dynamics (expected in spring 2027)</p></li>
-<li><p><a href="https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/"
-target="_blank" rel="noopener noreferrer">J. Eston Dunn III</a>,
-Ph.D. in Environmental Dynamics (expected in summer 2027)</p></li>
-<li><p><a
-href="https://www.linkedin.com/in/abaranjitha-muniyasamy-325a6b115/"
-target="_blank" rel="noopener noreferrer">Abaranjitha Muniyasamy</a>,
-Ph.D. in Biology (expected in fall 2027)</p></li>
-<li><p><a
-href="https://www.linkedin.com/in/honey-krishna-gaur-255032306/"
-target="_blank" rel="noopener noreferrer">Honey Krishna Gaur</a>, M.S.
-and Ph.D. in Biology (expected in fall 2030)</p></li>
-<li><p><a href="https://www.linkedin.com/in/crburkhart/" target="_blank"
-rel="noopener noreferrer">Chris Burkhart</a>, Ph.D. in Biology (expected
-in fall 2031)</p></li>
-<li><p><a href="">Brighton Harris</a>, B.S. (Honors Student) in Biology
-(expected in spring 2028)</p></li>
-<li><p><a href="">Ivan Wong</a>, B.S. (Honors Student) in Biology
-(expected in spring 2028)</p></li>
+<li><p><a href="https://www.linkedin.com/in/alexis-o-callahan/" target="_blank" rel="noopener noreferrer">Alexis O’Callahan</a>, Ph.D.&nbsp;in Environmental Dynamics (expected in spring 2027)</p></li>
+<li><p><a href="https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/" target="_blank" rel="noopener noreferrer">J. Eston Dunn III</a>, Ph.D.&nbsp;in Environmental Dynamics (expected in summer 2027)</p></li>
+<li><p><a href="https://www.linkedin.com/in/abaranjitha-muniyasamy-325a6b115/" target="_blank" rel="noopener noreferrer">Abaranjitha Muniyasamy</a>, Ph.D.&nbsp;in Biology (expected in fall 2027)</p></li>
+<li><p><a href="https://www.linkedin.com/in/honey-krishna-gaur-255032306/" target="_blank" rel="noopener noreferrer">Honey Krishna Gaur</a>, M.S. and Ph.D.&nbsp;in Biology (expected in fall 2030)</p></li>
+<li><p><a href="https://www.linkedin.com/in/crburkhart/" target="_blank" rel="noopener noreferrer">Chris Burkhart</a>, Ph.D.&nbsp;in Biology (expected in fall 2031)</p></li>
+<li><p>Brighton Harris, B.S. (Honors Student) in Biology (expected in spring 2028)</p></li>
+<li><p>Ivan Wong, B.S. (Honors Student) in Biology (expected in spring 2028)</p></li>
 </ul>
-<hr />
-</div>
-<div id="alumni" class="section level1">
+<hr>
+</section>
+<section id="alumni" class="level1">
 <h1>Alumni</h1>
-<hr />
+<hr>
 <p><strong>Postdoctoral Scientists</strong></p>
 <ul>
-<li><p><a
-href="https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/"
-target="_blank" rel="noopener noreferrer">Dr. Mitchell Pruitt</a>,
-Visiting Assistant Professor (2024 - 2025)</p></li>
-<li><p><a href="https://www.linkedin.com/in/liliastemet/"
-target="_blank" rel="noopener noreferrer">Dr. Lilia Stemet</a>, BIOLEAPS
-Project Coordinator (2025)</p></li>
-<li><p><a
-href="https://sites.google.com/view/jessicabmoon/people?authuser=0"
-target="_blank" rel="noopener noreferrer">Dr. Jessica Moon</a>,
-Postdoctoral Associate (2015-2018)</p></li>
-<li><p><a href="https://www.linkedin.com/in/bhaskar-mitra-0652b227/"
-target="_blank" rel="noopener noreferrer">Dr. Bhaskar Mitra</a>,
-Postdoctoral Associate (2014-2015)</p></li>
+<li><p><a href="https://www.linkedin.com/in/mitchell-pruitt-ph-d-32411b59/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Mitchell Pruitt</a>, Visiting Assistant Professor (2024 - 2025)</p></li>
+<li><p><a href="https://www.linkedin.com/in/liliastemet/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Lilia Stemet</a>, BIOLEAPS Project Coordinator (2025)</p></li>
+<li><p><a href="https://sites.google.com/view/jessicabmoon/people?authuser=0" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Jessica Moon</a>, Postdoctoral Associate (2015-2018)</p></li>
+<li><p><a href="https://www.linkedin.com/in/bhaskar-mitra-0652b227/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Bhaskar Mitra</a>, Postdoctoral Associate (2014-2015)</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>Graduate Students</strong></p>
 <ul>
-<li><p><a href="https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/"
-target="_blank" rel="noopener noreferrer">J. Eston Dunn III</a>, M.S. in
-Statistics and Analytics with Concentration in Computational Analytics
-(Dec. 2026)</p></li>
-<li><p><a href="https://www.linkedin.com/in/strose-ayanna/"
-target="_blank" rel="noopener noreferrer">Ayanna St. Rose</a>, Ph.D. in
-Biology (Dec. 2023)</p></li>
-<li><p><a href="https://www.linkedin.com/in/yangkaitang/"
-target="_blank" rel="noopener noreferrer">Yang Kai Tang</a>, M.S. in
-Statistics and Analytics with Concentration in Biological Analytics (May
-2023)</p></li>
-<li><p><a href="https://www.linkedin.com/in/strose-ayanna/"
-target="_blank" rel="noopener noreferrer">Ayanna St. Rose</a>, M.S. in
-Statistics and Analytics with Concentration in Biological Analytics (May
-2022) | Graduate Certificate in Sustainability (May, 2022)</p></li>
-<li><p><a href="https://www.linkedin.com/in/megan-reavis/"
-target="_blank" rel="noopener noreferrer">Megan Reavis</a>, Ph.D. in
-Biology (Dec. 2021) | Graduate Certificate in Sustainability
-(2020)</p></li>
-<li><p><a href="https://www.linkedin.com/in/renee-sniegocki-55a557227/"
-target="_blank" rel="noopener noreferrer">Renee Sniegocki</a>, M.S. in
-Biology (May 2020)</p></li>
+<li><p><a href="https://www.linkedin.com/in/j-eston-dunn-iii-0a132a138/" target="_blank" rel="noopener noreferrer">J. Eston Dunn III</a>, M.S. in Statistics and Analytics with Concentration in Computational Analytics (Dec.&nbsp;2026)</p></li>
+<li><p><a href="https://www.linkedin.com/in/strose-ayanna/" target="_blank" rel="noopener noreferrer">Ayanna St.&nbsp;Rose</a>, Ph.D.&nbsp;in Biology (Dec.&nbsp;2023)</p></li>
+<li><p><a href="https://www.linkedin.com/in/yangkaitang/" target="_blank" rel="noopener noreferrer">Yang Kai Tang</a>, M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2023)</p></li>
+<li><p><a href="https://www.linkedin.com/in/strose-ayanna/" target="_blank" rel="noopener noreferrer">Ayanna St.&nbsp;Rose</a>, M.S. in Statistics and Analytics with Concentration in Biological Analytics (May 2022) | Graduate Certificate in Sustainability (May, 2022)</p></li>
+<li><p><a href="https://www.linkedin.com/in/megan-reavis/" target="_blank" rel="noopener noreferrer">Megan Reavis</a>, Ph.D.&nbsp;in Biology (Dec.&nbsp;2021) | Graduate Certificate in Sustainability (2020)</p></li>
+<li><p><a href="https://www.linkedin.com/in/renee-sniegocki-55a557227/" target="_blank" rel="noopener noreferrer">Renee Sniegocki</a>, M.S. in Biology (May 2020)</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>Undergraduate Students</strong></p>
-<hr />
+<hr>
 <p><strong>Honors Thesis</strong></p>
 <ul>
-<li><p>C. Connor Perkins, Honors Student (2018 - 2019), Graduated cum
-laude</p></li>
-<li><p>K. Elizabeth Johnson, Honors Student (2017 - 2019), Graduated cum
-laude</p></li>
-<li><p><a
-href="https://www.pearlandpediatrics.com/jackson-massanelli-md-faap"
-target="_blank" rel="noopener noreferrer">Jackson Massanelli</a>, Honors
-Student (2015 - 2017), Graduated summa cum laude</p></li>
-<li><p><a href="https://www.linkedin.com/in/carly-konzelman-863a7a1a1/"
-target="_blank" rel="noopener noreferrer">Carly Konzelman</a>, Honors
-Student (2015 - 2016), Graduated magna cum laude</p></li>
+<li><p>C. Connor Perkins, Honors Student (2018 - 2019), Graduated cum laude</p></li>
+<li><p>K. Elizabeth Johnson, Honors Student (2017 - 2019), Graduated cum laude</p></li>
+<li><p><a href="https://www.pearlandpediatrics.com/jackson-massanelli-md-faap" target="_blank" rel="noopener noreferrer">Jackson Massanelli</a>, Honors Student (2015 - 2017), Graduated summa cum laude</p></li>
+<li><p><a href="https://www.linkedin.com/in/carly-konzelman-863a7a1a1/" target="_blank" rel="noopener noreferrer">Carly Konzelman</a>, Honors Student (2015 - 2016), Graduated magna cum laude</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>NSF REU/IRES</strong></p>
 <ul>
-<li><p><a href="https://www.linkedin.com/in/kristina-jolly/"
-target="_blank" rel="noopener noreferrer">Kristina Jolly</a>, NSF-REU
-Participant (summer 2026)</p></li>
-<li><p><a
-href="https://www.linkedin.com/in/yuna-obrien-a5007a277/?skipRedirect=true"
-target="_blank" rel="noopener noreferrer">Yuna O’Brien</a>, NSF-REU
-Participant (summer 2026)</p></li>
-<li><p><a href="https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/"
-target="_blank" rel="noopener noreferrer">Kenicia Godinet</a>, NSF-REU
-Participant (summer 2023)</p></li>
-<li><p><a href="https://www.linkedin.com/in/emma-kellogg01/"
-target="_blank" rel="noopener noreferrer">Emma Kellogg</a>, NSF-REU
-Participant (summer 2023)</p></li>
-<li><p><a
-href="https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/"
-target="_blank" rel="noopener noreferrer">Brian Jose Martinez-Soler</a>,
-NSF-REU Participant (summer 2022)</p></li>
-<li><p><a
-href="https://isletimmunoengineering.miami.edu/people/graduate-students/index.html"
-target="_blank" rel="noopener noreferrer">Marvin Mendoza</a>, NSF-REU
-Participant (summer 2021)</p></li>
-<li><p><a href="https://www.linkedin.com/in/abigail-rutrough-694655139/"
-target="_blank" rel="noopener noreferrer">Abby Rutrough</a>, NSF-IRES
-Participant (summer 2018)</p></li>
-<li><p><a href="https://www.linkedin.com/in/mmeadowsmcdonnell/"
-target="_blank" rel="noopener noreferrer">Madeleine M. McDonnell</a>,
-NSF-REU Participant (summer 2016)</p></li>
-<li><p><a href="https://www.linkedin.com/in/dbereznyakov/"
-target="_blank" rel="noopener noreferrer">Daniel Bereznyakov</a>,
-NSF-REU Participant (summer 2015)</p></li>
+<li><p><a href="https://www.linkedin.com/in/kristina-jolly/" target="_blank" rel="noopener noreferrer">Kristina Jolly</a>, NSF-REU Participant (summer 2026)</p></li>
+<li><p><a href="https://www.linkedin.com/in/yuna-obrien-a5007a277/?skipRedirect=true" target="_blank" rel="noopener noreferrer">Yuna O’Brien</a>, NSF-REU Participant (summer 2026)</p></li>
+<li><p><a href="https://www.linkedin.com/in/kenicia-godinet-b5a3a1301/" target="_blank" rel="noopener noreferrer">Kenicia Godinet</a>, NSF-REU Participant (summer 2023)</p></li>
+<li><p><a href="https://www.linkedin.com/in/emma-kellogg01/" target="_blank" rel="noopener noreferrer">Emma Kellogg</a>, NSF-REU Participant (summer 2023)</p></li>
+<li><p><a href="https://www.linkedin.com/in/brian-mart%C3%ADnez-soler-986a1b223/" target="_blank" rel="noopener noreferrer">Brian Jose Martinez-Soler</a>, NSF-REU Participant (summer 2022)</p></li>
+<li><p><a href="https://isletimmunoengineering.miami.edu/people/graduate-students/index.html" target="_blank" rel="noopener noreferrer">Marvin Mendoza</a>, NSF-REU Participant (summer 2021)</p></li>
+<li><p><a href="https://www.linkedin.com/in/abigail-rutrough-694655139/" target="_blank" rel="noopener noreferrer">Abby Rutrough</a>, NSF-IRES Participant (summer 2018)</p></li>
+<li><p><a href="https://www.linkedin.com/in/mmeadowsmcdonnell/" target="_blank" rel="noopener noreferrer">Madeleine M. McDonnell</a>, NSF-REU Participant (summer 2016)</p></li>
+<li><p><a href="https://www.linkedin.com/in/dbereznyakov/" target="_blank" rel="noopener noreferrer">Daniel Bereznyakov</a>, NSF-REU Participant (summer 2015)</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>Senior Thesis</strong></p>
 <ul>
 <li><p>Lauren Mayden, Senior Thesis (2023)</p></li>
@@ -451,15 +242,10 @@ NSF-REU Participant (summer 2015)</p></li>
 <li><p>Madison Moss Senior Thesis (2023)</p></li>
 <li><p>Kailey Hutcherson, Senior Thesis (2021)</p></li>
 <li><p>Megan Phillips, Senior Thesis (2021)</p></li>
-<li><p><a
-href="https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/"
-target="_blank" rel="noopener noreferrer">Ashley Kiersey</a>, Senior
-Thesis (2021)</p></li>
+<li><p><a href="https://www.linkedin.com/in/ashley-kiersey-paschal-5189436a/" target="_blank" rel="noopener noreferrer">Ashley Kiersey</a>, Senior Thesis (2021)</p></li>
 <li><p>Leiah Brown, Senior Thesis (2021)</p></li>
 <li><p>Heber Rosa, Senior Thesis (2020)</p></li>
-<li><p><a href="https://www.linkedin.com/in/ashley-bailey-27a226198/"
-target="_blank" rel="noopener noreferrer">Ashley Bailey</a>, Senior
-Thesis (2019)</p></li>
+<li><p><a href="https://www.linkedin.com/in/ashley-bailey-27a226198/" target="_blank" rel="noopener noreferrer">Ashley Bailey</a>, Senior Thesis (2019)</p></li>
 <li><p>Michael McGibbony, Senior Thesis (2019)</p></li>
 <li><p>Julie Stoynaoff, Senior Thesis (2019)</p></li>
 <li><p>John Strange, Senior Thesis (2019)</p></li>
@@ -474,86 +260,433 @@ Thesis (2019)</p></li>
 <li><p>Brandon Main, Senior Thesis (2016)</p></li>
 <li><p>Stefany Sierra, Senior Thesis (2016)</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>Research Hours</strong></p>
 <ul>
-<li><p><a href="https://www.linkedin.com/in/jeffrey-bradford-46a373308/"
-target="_blank" rel="noopener noreferrer">Jeffery Bradford</a>, Honors
-Research Hours (2023 - 2024)</p></li>
-<li><p><a href="https://www.linkedin.com/in/bonnie-champion-b0a670147/"
-target="_blank" rel="noopener noreferrer">Bonnie Champion</a>, Research
-Hours (2020 - 2021), Senior Thesis</p></li>
-<li><p><a href="https://www.linkedin.com/in/cody-schwieso-146b18183/"
-target="_blank" rel="noopener noreferrer">Cody Schwieso</a>, Research
-Hours (2019)</p></li>
-<li><p><a href="https://www.linkedin.com/in/caroline-forster-917878160/"
-target="_blank" rel="noopener noreferrer">Caroline Forster</a>, Research
-Hours (2017 - 2018)</p></li>
-<li><p><a href="https://www.linkedin.com/in/clint-bush-00ba86162/"
-target="_blank" rel="noopener noreferrer">Clint Bush</a>, Research
-Assistant (fall 2016)</p></li>
+<li><p><a href="https://www.linkedin.com/in/jeffrey-bradford-46a373308/" target="_blank" rel="noopener noreferrer">Jeffery Bradford</a>, Honors Research Hours (2023 - 2024)</p></li>
+<li><p><a href="https://www.linkedin.com/in/bonnie-champion-b0a670147/" target="_blank" rel="noopener noreferrer">Bonnie Champion</a>, Research Hours (2020 - 2021), Senior Thesis</p></li>
+<li><p><a href="https://www.linkedin.com/in/cody-schwieso-146b18183/" target="_blank" rel="noopener noreferrer">Cody Schwieso</a>, Research Hours (2019)</p></li>
+<li><p><a href="https://www.linkedin.com/in/caroline-forster-917878160/" target="_blank" rel="noopener noreferrer">Caroline Forster</a>, Research Hours (2017 - 2018)</p></li>
+<li><p><a href="https://www.linkedin.com/in/clint-bush-00ba86162/" target="_blank" rel="noopener noreferrer">Clint Bush</a>, Research Assistant (fall 2016)</p></li>
 </ul>
-<hr />
+<hr>
 <p><strong>Naithani Lab Affiliate</strong></p>
 <ul>
-<li><a href="https://www.linkedin.com/in/harrison-w-smith/"
-target="_blank" rel="noopener noreferrer">Harrison Smith</a></li>
-<li><a href="https://www.linkedin.com/in/kapil-khadka-5898671b9/"
-target="_blank" rel="noopener noreferrer">Kapil Khadka</a></li>
-<li><a href="https://www.linkedin.com/in/robert-dyer-a64771231/"
-target="_blank" rel="noopener noreferrer">Robert Dyer</a></li>
+<li><a href="https://www.linkedin.com/in/harrison-w-smith/" target="_blank" rel="noopener noreferrer">Harrison Smith</a></li>
+<li><a href="https://www.linkedin.com/in/kapil-khadka-5898671b9/" target="_blank" rel="noopener noreferrer">Kapil Khadka</a></li>
+<li><a href="https://www.linkedin.com/in/robert-dyer-a64771231/" target="_blank" rel="noopener noreferrer">Robert Dyer</a></li>
 </ul>
-<hr />
-<p><em>These materials are not endorsed, approved, sponsored, or
-provided by or on behalf of the University of Arkansas,
-Fayetteville.</em></p>
-<hr />
-</div>
+<hr>
+<p><em>These materials are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</em></p>
+<hr>
 
 
+</section>
 
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
   });
-});
-</script>
-
-<!-- code folding -->
+  </script>
+</div> <!-- /content -->
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
-</body>
-</html>
+
+</body></html>

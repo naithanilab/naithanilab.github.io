@@ -1,0 +1,18 @@
+---
+title: "Publications"
+subtitle: "Find peer-reviewed scholarship and research outputs"
+---
+
+<div class="page-kicker">Research outputs</div>
+
+# Publications and scholarly work
+
+Explore the lab's publications through the researcher profiles below. These external sources provide up-to-date publication lists without duplicating or risking outdated bibliographic information on this website.
+
+<div class="lab-grid publication-links">
+<div class="lab-card"><h3>Google Scholar</h3><p>Browse articles, citations, and scholarly work associated with Dr. Kusum Naithani.</p><a href="https://scholar.google.com/citations?user=t1udHZoAAAAJ" target="_blank" rel="noopener noreferrer">Open Google Scholar ↗</a></div>
+<div class="lab-card"><h3>Research projects</h3><p>Connect research topics with grants and research programs listed by the lab.</p><a href="Projects.qmd">Explore projects →</a></div>
+<div class="lab-card"><h3>Research team</h3><p>Meet lab members and follow their available professional profiles.</p><a href="People.qmd">Meet the team →</a></div>
+</div>
+
+
